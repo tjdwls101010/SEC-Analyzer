@@ -1,0 +1,184 @@
+{
+  "ticker": "SMCI",
+  "revenue_concentration": {
+    "llm_count": 4,
+    "xbrl_count": 4,
+    "llm_items": [
+      {
+        "entity": "Customer A",
+        "revenue_pct": 20.9,
+        "revenue_amount": "not disclosed",
+        "context": "Significant customer information is as follows: Customer A accounted for 20.9% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer B",
+        "revenue_pct": 11.5,
+        "revenue_amount": "not disclosed",
+        "context": "Significant customer information is as follows: Customer B accounted for 11.5% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer C",
+        "revenue_pct": 11.3,
+        "revenue_amount": "not disclosed",
+        "context": "Significant customer information is as follows: Customer C accounted for 11.3% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer D",
+        "revenue_pct": 11.1,
+        "revenue_amount": "not disclosed",
+        "context": "Significant customer information is as follows: Customer D accounted for 11.1% of total net sales in fiscal year 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "entity": "Customer A",
+        "revenue_pct": 20.9,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer B",
+        "revenue_pct": 11.5,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer C",
+        "revenue_pct": 11.3,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer D",
+        "revenue_pct": 11.1,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      }
+    ]
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 4,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 59.4,
+        "revenue_amount": "$13,052.6 million",
+        "context": "United States net sales were $13,052.6 million, representing 59.4% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Asia",
+        "revenue_pct": 25.0,
+        "revenue_amount": "$5,494.1 million",
+        "context": "Asia net sales were $5,494.1 million, representing 25.0% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Europe",
+        "revenue_pct": 12.4,
+        "revenue_amount": "$2,727.0 million",
+        "context": "Europe net sales were $2,727.0 million, representing 12.4% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Thailand",
+        "revenue_pct": 10.9,
+        "revenue_amount": "not disclosed",
+        "context": "For the year ended June 30, 2025, 59.4% and 10.9% of revenues were from the United States and Thailand, respectively."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 62.16,
+        "revenue_amount": "$13.1B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Asia",
+        "revenue_pct": 26.16,
+        "revenue_amount": "$5.5B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Europe",
+        "revenue_pct": 12.99,
+        "revenue_amount": "$2.7B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 3.33,
+        "revenue_amount": "$698M",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 3,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "category": "finished_goods",
+        "amount": "$3,465.4 million",
+        "pct_of_total": 74.0,
+        "context": "Finished goods inventory was $3,465,352 thousand as of June 30, 2025."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$674.6 million",
+        "pct_of_total": 14.4,
+        "context": "Work in process inventory was $674,613 thousand as of June 30, 2025."
+      },
+      {
+        "category": "raw_materials",
+        "amount": "$540.4 million",
+        "pct_of_total": 11.5,
+        "context": "Purchased parts and raw materials inventory was $540,410 thousand as of June 30, 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$540M",
+        "source": "xbrl",
+        "pct_of_total": 11.55
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$675M",
+        "source": "xbrl",
+        "pct_of_total": 14.41
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$3.5B",
+        "source": "xbrl",
+        "pct_of_total": 74.04
+      }
+    ]
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "non-cancelable purchase commitments",
+        "amount": "$1.6 billion",
+        "timeframe": "primarily through the next 12 months",
+        "context": "As noted in Note 13, \u201cCommitments and Contingencies\u201d in the notes to the consolidated financial statements, we have current obligations related to non-cancelable purchase commitments of $1.6 billion."
+      },
+      {
+        "counterparty": "Related parties (Ablecom and Compuware)",
+        "obligation_type": "non-cancelable purchase commitments",
+        "amount": "$148.9 million",
+        "timeframe": "primarily through the next 12 months",
+        "context": "As of June 30, 2025, these remaining non-cancelable commitments were $1.6 billion, including $148.9 million to related parties."
+      }
+    ],
+    "xbrl_items": []
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2025-10-31",
+    "accession_number": "0000320193-25-000079",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+  },
+  "data": {
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 36.47,
+        "revenue_amount": "$151.8B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      },
+      {
+        "region": "China",
+        "revenue_pct": 15.47,
+        "revenue_amount": "$64.4B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 48.06,
+        "revenue_amount": "$200.0B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$523M",
+        "timeframe": "total",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$4.8B",
+        "timeframe": "year 1",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$3.7B",
+        "timeframe": "year 2",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$2.0B",
+        "timeframe": "year 3",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.3B",
+        "timeframe": "year 4",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$788M",
+        "timeframe": "year 5",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$773M",
+        "timeframe": "after year 5",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$13.3B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  },
+  "xbrl_available": true
+}

@@ -1,0 +1,75 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0000018230-26-000008",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+  },
+  "data": {
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 19.02,
+        "revenue_amount": "$14.1B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 3.19,
+        "revenue_amount": "$2.4B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 6.21,
+        "revenue_amount": "$4.6B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 5.12,
+        "revenue_amount": "$3.8B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 44.46,
+        "revenue_amount": "$32.9B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Non Us",
+        "revenue_pct": 46.93,
+        "revenue_amount": "$34.7B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$7.4B",
+        "source": "xbrl",
+        "pct_of_total": 40.99
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$1.6B",
+        "source": "xbrl",
+        "pct_of_total": 8.81
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.7B",
+        "source": "xbrl",
+        "pct_of_total": 48.11
+      }
+    ]
+  },
+  "xbrl_available": true
+}

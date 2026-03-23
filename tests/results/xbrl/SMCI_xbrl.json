@@ -1,0 +1,87 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2025-08-28",
+    "accession_number": "0001375365-25-000027",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000027/smci-20250630.htm"
+  },
+  "data": {
+    "revenue_concentration": [
+      {
+        "entity": "Customer A",
+        "revenue_pct": 20.9,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer B",
+        "revenue_pct": 11.5,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer C",
+        "revenue_pct": 11.3,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "entity": "Customer D",
+        "revenue_pct": 11.1,
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 62.16,
+        "revenue_amount": "$13.1B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Asia",
+        "revenue_pct": 26.16,
+        "revenue_amount": "$5.5B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Europe",
+        "revenue_pct": 12.99,
+        "revenue_amount": "$2.7B",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 3.33,
+        "revenue_amount": "$698M",
+        "source": "xbrl",
+        "end_date": "2025-06-30"
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$540M",
+        "source": "xbrl",
+        "pct_of_total": 11.55
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$675M",
+        "source": "xbrl",
+        "pct_of_total": 14.41
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$3.5B",
+        "source": "xbrl",
+        "pct_of_total": 74.04
+      }
+    ]
+  },
+  "xbrl_available": true
+}

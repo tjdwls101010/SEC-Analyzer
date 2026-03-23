@@ -1,0 +1,143 @@
+{
+  "ticker": "F",
+  "revenue_concentration": {
+    "llm_count": 0,
+    "xbrl_count": 0,
+    "llm_items": [],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 5,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 65.5,
+        "revenue_amount": "$122,574 million",
+        "context": "United States 2025 Revenues: $122,574 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "Canada",
+        "revenue_pct": 7.8,
+        "revenue_amount": "$14,548 million",
+        "context": "Canada 2025 Revenues: $14,548 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 6.6,
+        "revenue_amount": "$12,298 million",
+        "context": "United Kingdom 2025 Revenues: $12,298 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "Mexico",
+        "revenue_pct": 1.3,
+        "revenue_amount": "$2,463 million",
+        "context": "Mexico 2025 Revenues: $2,463 million. Total Company 2025 Revenues: $187,267 million."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 65.45,
+        "revenue_amount": "$122.6B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "CA",
+        "revenue_pct": 7.77,
+        "revenue_amount": "$14.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 6.57,
+        "revenue_amount": "$12.3B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "MX",
+        "revenue_pct": 1.32,
+        "revenue_amount": "$2.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Other Geographical",
+        "revenue_pct": 18.89,
+        "revenue_amount": "$35.4B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 2,
+    "xbrl_count": 2,
+    "llm_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$6,020 million",
+        "pct_of_total": 39.4,
+        "context": "Raw materials, work-in-process, and supplies: $6,020 million at December 31, 2025."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$9,265 million",
+        "pct_of_total": 60.6,
+        "context": "Finished products: $9,265 million at December 31, 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "category": "work_in_progress",
+        "amount": "$5.4B",
+        "source": "xbrl",
+        "pct_of_total": 36.08
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$9.6B",
+        "source": "xbrl",
+        "pct_of_total": 63.92
+      }
+    ]
+  },
+  "purchase_obligations": {
+    "llm_count": 3,
+    "xbrl_count": 1,
+    "llm_items": [
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "purchase obligations",
+        "amount": "$8.8 billion",
+        "timeframe": "through 2030 and thereafter",
+        "context": "As of December 31, 2025, our purchase obligations include $2.3 billion due in 2026, $3.1 billion due in 2027-2028, $2.2 billion due in 2029-2030, and $1.2 billion due thereafter."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "offtake agreements",
+        "amount": "$4.7 billion",
+        "timeframe": "through 2035",
+        "context": "As of December 31, 2025, our estimated expenditures for the maximum quantity that we are committed to purchase under these offtake agreements through 2035, subject to certain conditions, total approximately $4.7 billion based on our present forecast."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "regulatory compliance credits",
+        "amount": "$1.6 billion",
+        "timeframe": "current and future model years",
+        "context": "As of December 31, 2025, our outstanding purchase obligations under our compliance credit purchase agreements totaled about $1.6 billion."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.1B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  }
+}

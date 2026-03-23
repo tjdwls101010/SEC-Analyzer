@@ -1,0 +1,141 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2025-10-31",
+    "accession_number": "0000320193-25-000079",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/320193/000032019325000079/aapl-20250927.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Google LLC",
+        "relationship": "licensing arrangement for search services",
+        "context": "The Company earns revenue from licensing arrangements with Google LLC (\u201cGoogle\u201d) and other companies to offer their search services on the Company\u2019s platforms and applications, and certain of these arrangements are currently subject to government investigations and legal proceedings."
+      }
+    ],
+    "customers": [],
+    "single_source_dependencies": [
+      {
+        "component": "custom components",
+        "supplier": "single or limited sources",
+        "context": "The Company uses some custom components that are not commonly used by its competitors, and new products introduced by the Company often utilize custom components available from only one source."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "China mainland",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      },
+      {
+        "location": "India",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      },
+      {
+        "location": "Japan",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      },
+      {
+        "location": "South Korea",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      },
+      {
+        "location": "Taiwan",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      },
+      {
+        "location": "Vietnam",
+        "activity": "manufacturing and final assembly",
+        "context": "A significant majority of the Company\u2019s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "initial capacity constraints for new technologies",
+        "context": "When a component or product uses new technologies, initial capacity constraints may exist until the suppliers\u2019 yields have matured or their manufacturing capacities have increased."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "U.S. Tariffs",
+        "context": "Beginning in the second quarter of 2025, new tariffs were announced on imports to the U.S. (\u201cU.S. Tariffs\u201d), including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the European Union (\u201cEU\u201d), among others."
+      },
+      {
+        "risk": "industry-wide semiconductor shortage",
+        "context": "For example, the global semiconductor industry has in the past experienced high demand and shortages of supply, which adversely affected the Company\u2019s ability to obtain sufficient quantities of components and products on commercially reasonable terms, or at all."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Direct distribution channels",
+        "revenue_pct": 40.0,
+        "revenue_amount": "null",
+        "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+      },
+      {
+        "entity": "Indirect distribution channels",
+        "revenue_pct": 60.0,
+        "revenue_amount": "null",
+        "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 36.5,
+        "revenue_amount": "$151,790 million",
+        "context": "U.S. net sales were $151,790 million for 2025."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 15.5,
+        "revenue_amount": "$64,377 million",
+        "context": "China net sales (including Hong Kong and Taiwan) were $64,377 million for 2025."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "various outsourcing partners and suppliers",
+        "obligation_type": "manufacturing purchase obligations",
+        "amount": "$56.2 billion",
+        "timeframe": "as of September 27, 2025",
+        "context": "As of September 27, 2025, the Company had manufacturing purchase obligations of $56.2 billion, with $55.4 billion payable within 12 months."
+      },
+      {
+        "counterparty": "various suppliers and licensors",
+        "obligation_type": "unconditional purchase obligations",
+        "amount": "$13.3 billion",
+        "timeframe": "remaining term in excess of one year",
+        "context": "The Company\u2019s unconditional purchase obligations primarily consist of supplier arrangements, licensed intellectual property and content, and distribution rights. Future payments under unconditional purchase obligations with a remaining term in excess of one year as of September 27, 2025, are $13,308 million."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "investment portfolio and term debt",
+        "sensitivity": "100 basis point increase = $2,416M decline in fair value of investment portfolio",
+        "hedging": "derivative instruments, offset interest rate\u2013sensitive assets and liabilities, or control duration",
+        "context": "The Company is primarily exposed to fluctuations in U.S. interest rates and their impact on the Company\u2019s investment portfolio and term debt."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses",
+        "sensitivity": "95% confidence maximum one-day loss in fair value of $590 million",
+        "hedging": "derivative instruments, such as foreign currency forward and option contracts",
+        "context": "The Company\u2019s primary exposure to movements in foreign exchange rates relates to non\u2013U.S. dollar\u2013denominated sales, cost of sales and operating expenses worldwide."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "finished_goods",
+        "amount": "$5,718 million",
+        "pct_of_total": 100.0,
+        "context": "Inventories were $5,718 million as of September 27, 2025. Inventories are measured using the first-in, first-out method."
+      }
+    ]
+  }
+}

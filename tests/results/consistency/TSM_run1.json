@@ -1,0 +1,227 @@
+{
+  "filing": {
+    "form": "20-F",
+    "filing_date": "2025-04-17",
+    "accession_number": "0001193125-25-083423",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1046179/000119312525083423/d896993d20f.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Vanguard International Semiconductor Corporation",
+        "relationship": "foundry partner and associate",
+        "context": "Pursuant to the terms of a manufacturing agreement between both parties, VIS was obligated to use its best commercial efforts to manufacture wafers at specified yield rates for us up to a fixed amount of reserved capacity per month."
+      },
+      {
+        "entity": "Systems on Silicon Manufacturing Company Pte. Ltd.",
+        "relationship": "joint venture manufacturing partner",
+        "context": "SSMC\u2019s business is limited to manufacturing wafers for us, our subsidiaries, NXP and NXP\u2019s subsidiaries. While we, together with NXP, have the right to purchase up to 100% of SSMC\u2019s annual capacity, we and NXP are required to purchase, in the aggregate, at least 70% of SSMC\u2019s full capacity."
+      },
+      {
+        "entity": "Xintec, Inc.",
+        "relationship": "wafer level packaging service provider",
+        "context": "In January 2007, we acquired a 51.2% equity interest in Xintec, a supplier of wafer level packaging service, to support our CMOS image sensor manufacturing business. In 2024, we incurred total manufacturing expenses of NT$5,233 million (US$160 million) from Xintec."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Advanced Micro Devices, Inc.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Advanced Micro Devices, Inc."
+      },
+      {
+        "entity": "Amazon Web Services, Inc.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Amazon Web Services, Inc."
+      },
+      {
+        "entity": "Broadcom Inc.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Broadcom Inc."
+      },
+      {
+        "entity": "Intel Corporation",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Intel Corporation."
+      },
+      {
+        "entity": "MediaTek Inc.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, MediaTek Inc."
+      },
+      {
+        "entity": "NVIDIA Corporation",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, NVIDIA Corporation."
+      },
+      {
+        "entity": "NXP Semiconductors N.V.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, NXP Semiconductors N.V."
+      },
+      {
+        "entity": "Qualcomm Inc.",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Qualcomm Inc."
+      },
+      {
+        "entity": "Renesas Electronics Corporation",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Renesas Electronics Corporation."
+      },
+      {
+        "entity": "Sony Semiconductor Solutions Corporation",
+        "relationship": "customer",
+        "context": "We count among our customers many of the world\u2019s leading semiconductor companies... including, but not limited to, Sony Semiconductor Solutions Corporation."
+      },
+      {
+        "entity": "Global Unichip Corporation",
+        "relationship": "SoC design service customer",
+        "context": "In 2024, we had total sales of NT$14,089 million (US$430 million) to GUC, representing 0.5% of our total revenue."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "raw materials",
+        "supplier": "sole-sourced suppliers",
+        "context": "Also, since we procure some of our raw materials from sole-sourced suppliers, there is a risk that our need for such raw materials may not be met or that back-up supplies may not be readily available."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "Taiwan",
+        "activity": "principal production facilities",
+        "context": "The majority of our principal executive officers and our principal production facilities are located in the R.O.C., and the majority of our net revenue is derived from our operations in the R.O.C."
+      },
+      {
+        "location": "Hsinchu Science Park",
+        "activity": "corporate headquarters and nine fabs",
+        "context": "Our corporate headquarters and nine of our fabs are located in the Hsinchu Science Park."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "production capacity limitation",
+        "context": "During periods of decreased demand, certain manufacturing lines or tools in some of our manufacturing facilities may be suspended or shut down temporarily. However, if demand subsequently increases rapidly over a short period of time, we may not be able to restore the capacity in a timely manner to take advantage of the upturn."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "export control restrictions",
+        "context": "Also, any increase in the use of export control restrictions and sanctions to target certain countries and entities... could impact not only our ability to continue supplying products to those customers, but also our customers\u2019 demand for our products, and could even lead to changes in semiconductor supply chains."
+      },
+      {
+        "risk": "raw material shortages",
+        "context": "In the past, shortages in the supply of some materials, whether by specific suppliers or by the semiconductor industry generally, have resulted in occasional industry-wide price adjustments and delivery delays."
+      },
+      {
+        "risk": "utility outages",
+        "context": "We have occasionally suffered power outages, dips or surges caused by difficulties encountered by our electricity supplier or other power consumers on the same power grid. Some of these incidents have resulted in interruptions to our operations."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Customer A",
+        "revenue_pct": 22.0,
+        "revenue_amount": "NT$624,345.5 million",
+        "context": "Customer A accounted for 22% of net revenue in 2024."
+      },
+      {
+        "entity": "Customer B",
+        "revenue_pct": 12.0,
+        "revenue_amount": "NT$352,271.2 million",
+        "context": "Customer B accounted for 12% of net revenue in 2024."
+      },
+      {
+        "entity": "Top ten largest customers",
+        "revenue_pct": 76.0,
+        "revenue_amount": "null",
+        "context": "While we generate revenue from hundreds of customers worldwide, our ten largest customers in 2022, 2023 and 2024 accounted for approximately, 68%, 70% and 76% of our net revenue in the respective year."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 70.0,
+        "revenue_amount": "NT$2,031,326 million",
+        "context": "North America accounted for 70% of net revenue in 2024."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 11.0,
+        "revenue_amount": "NT$331,673 million",
+        "context": "China accounted for 11% of net revenue in 2024."
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 10.0,
+        "revenue_amount": "NT$284,308 million",
+        "context": "Asia Pacific accounted for 10% of net revenue in 2024."
+      },
+      {
+        "region": "Japan",
+        "revenue_pct": 5.0,
+        "revenue_amount": "NT$144,240 million",
+        "context": "Japan accounted for 5% of net revenue in 2024."
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 4.0,
+        "revenue_amount": "NT$102,761 million",
+        "context": "EMEA accounted for 4% of net revenue in 2024."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "Capital Purchase or Other Purchase Obligations",
+        "amount": "NT$1,144,112 million",
+        "timeframe": "Less than 1 year to 5 years",
+        "context": "Represents commitments for construction or purchase of equipment, raw material and other property or services."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "Temporary Receipts",
+        "amount": "NT$291,102 million",
+        "timeframe": "Less than 1 year to 3 years",
+        "context": "Represents advance temporary receipts from customer... to retain specified capacity at our fabs."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "NT dollar against U.S. dollar, Euro, and Japanese yen",
+        "sensitivity": "every 1% depreciation of the U.S. dollar against the NT dollar would result in an approximately 0.4 percentage point decrease in our operating margin",
+        "hedging": "foreign currency derivatives contracts, such as currency forwards or currency swaps, and non-derivative financial instruments, such as foreign currency denominated debts",
+        "context": "Substantially all of our sales are denominated in U.S. dollars and over half of our capital expenditures are denominated in currencies other than the NT dollar, primarily in U.S. dollars, Euros and Japanese yen."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "investment portfolio and outstanding debt",
+        "sensitivity": "hypothetical adverse interest rate change of 100 basis points across all maturities would have decreased our other comprehensive income by NT$4,501 million",
+        "hedging": "interest rate derivatives to partially hedge interest rate risk on our fixed income investments and anticipated debt issuance",
+        "context": "We are exposed to interest rate risks primarily in relation to our investment portfolio and outstanding debt."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "work_in_progress",
+        "amount": "NT$181,198.8 million",
+        "pct_of_total": 62.9,
+        "context": "Work in process inventory as of December 31, 2024."
+      },
+      {
+        "category": "raw_materials",
+        "amount": "NT$46,449.3 million",
+        "pct_of_total": 16.1,
+        "context": "Raw materials inventory as of December 31, 2024."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "NT$35,177.0 million",
+        "pct_of_total": 12.2,
+        "context": "Finished goods inventory as of December 31, 2024."
+      }
+    ]
+  }
+}

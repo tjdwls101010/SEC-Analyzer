@@ -1,0 +1,182 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-17",
+    "accession_number": "0001321655-26-000011",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1321655/000132165526000011/pltr-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Amazon Web Services",
+        "relationship": "computing infrastructure provider",
+        "context": "We depend on computing infrastructure operated by Amazon Web Services (\"AWS\"), Microsoft, and other third parties to support some of our customers and any errors, disruption, performance problems, or failure in their or our operational infrastructure could adversely affect our business, financial condition, and results of operations."
+      },
+      {
+        "entity": "Microsoft",
+        "relationship": "computing infrastructure provider",
+        "context": "We depend on computing infrastructure operated by Amazon Web Services (\"AWS\"), Microsoft, and other third parties to support some of our customers and any errors, disruption, performance problems, or failure in their or our operational infrastructure could adversely affect our business, financial condition, and results of operations."
+      },
+      {
+        "entity": "Wells Fargo Bank, National Association",
+        "relationship": "Administrative Agent for credit facility",
+        "context": "Amendment No. 13 to Revolving Credit Agreement and Incremental Agreement, dated as of July 1, 2022, among the registrant, Palantir USG, Inc., the lenders party thereto, and Wells Fargo Bank, National Association... as Administrative Agent."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "U.S. federal government",
+        "relationship": "major customer segment (54% of 2025 revenue)",
+        "context": "Of the $4.5 billion in revenue that we generated in 2025, 54% came from customers in the government segment, and 46% came from customers in the commercial segment."
+      },
+      {
+        "entity": "U.S. Army",
+        "relationship": "government customer",
+        "context": "For example, in March 2024, we were selected by the U.S. Army to develop and deliver the Tactical Intelligence Targeting Access Node ground station system, the Army\u2019s first AI-defined vehicle, which involves coordination with third parties such as hardware manufacturers."
+      },
+      {
+        "entity": "U.S. Food and Drug Administration",
+        "relationship": "government customer",
+        "context": "For example, while the U.S. Food and Drug Administration, Centers for Disease Control and Prevention, and National Institutes of Health are subsidiary agencies of the U.S. Department of Health and Human Services, we treat each of those agencies as a separate customer."
+      },
+      {
+        "entity": "Centers for Disease Control and Prevention",
+        "relationship": "government customer",
+        "context": "For example, while the U.S. Food and Drug Administration, Centers for Disease Control and Prevention, and National Institutes of Health are subsidiary agencies of the U.S. Department of Health and Human Services, we treat each of those agencies as a separate customer."
+      },
+      {
+        "entity": "National Institutes of Health",
+        "relationship": "government customer",
+        "context": "For example, while the U.S. Food and Drug Administration, Centers for Disease Control and Prevention, and National Institutes of Health are subsidiary agencies of the U.S. Department of Health and Human Services, we treat each of those agencies as a separate customer."
+      },
+      {
+        "entity": "Fujitsu Limited",
+        "relationship": "strategic global partner and customer",
+        "context": "For example, we, through Palantir Technologies Japan KK, entered into a strategic global partnership with Fujitsu Limited through which the parties will incorporate the capabilities of Foundry and AIP as a key element in the data infrastructure for Fujitsu Uvance."
+      },
+      {
+        "entity": "SOMPO Holdings, Inc.",
+        "relationship": "joint venture partner and customer",
+        "context": "For example, in November 2019, we created a jointly controlled entity in Japan with SOMPO Holdings, Inc., in which we subsequently obtained a controlling interest in November 2022."
+      },
+      {
+        "entity": "HD Hyundai Co. Ltd.",
+        "relationship": "joint venture partner and customer",
+        "context": "We also created a jointly-owned entity in South Korea with HD Hyundai Co. Ltd. in December 2022 in which we have a controlling interest."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "Cloud hosting and computing infrastructure",
+        "supplier": "Amazon Web Services",
+        "context": "We rely on the technology, infrastructure, and software applications, including software-as-a-service offerings, of certain third parties, such as AWS and Microsoft Azure, in order to host or operate some or all of certain key technology platform features or functions of our business."
+      },
+      {
+        "component": "Cloud hosting and computing infrastructure",
+        "supplier": "Microsoft Azure",
+        "context": "We rely on the technology, infrastructure, and software applications, including software-as-a-service offerings, of certain third parties, such as AWS and Microsoft Azure, in order to host or operate some or all of certain key technology platform features or functions of our business."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "primary revenue source and operations",
+        "context": "In 2025, we earned 74% of our revenue from customers in the United States, and 26% from those abroad."
+      },
+      {
+        "location": "United Kingdom",
+        "activity": "significant operations and revenue",
+        "context": "Revenue from the United Kingdom was $427.4 million, representing 10% of total revenue in 2025."
+      },
+      {
+        "location": "Japan",
+        "activity": "office locations and property concentration",
+        "context": "Property and equipment, net is attributed to the Company\u2019s office locations as follows: United States (73%), Japan (14%), United Kingdom (10%)."
+      }
+    ],
+    "capacity_constraints": [],
+    "supply_chain_risks": [
+      {
+        "risk": "third-party infrastructure dependency",
+        "context": "We depend on computing infrastructure of third parties and they may experience errors, disruption, performance problems, or failure."
+      },
+      {
+        "risk": "geopolitical tensions and conflict zones",
+        "context": "We have provided, and may continue to provide, our platforms, products, personnel, and services to support operations in conflict zones. Such zones are subject to, among other things, political uncertainty, geopolitical tensions, and military actions, such as those associated with the ongoing Russia-Ukraine, and Israel and broader Middle East conflicts."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Government segment",
+        "revenue_pct": 54.0,
+        "revenue_amount": "$2.4 billion",
+        "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+      },
+      {
+        "entity": "Commercial segment",
+        "revenue_pct": 46.0,
+        "revenue_amount": "$2.1 billion",
+        "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+      },
+      {
+        "entity": "Top three customers",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$716.1 million",
+        "context": "Our top three customers together accounted for 16% and 17% of our revenue for the years ended December 31, 2025 and 2024, respectively."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 74.0,
+        "revenue_amount": "$3.3 billion",
+        "context": "In the year ended December 31, 2025, we generated 74% of our revenue from customers in the United States and the remaining 26% from non-U.S. customers."
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 10.0,
+        "revenue_amount": "$427.4 million",
+        "context": "Revenue from the United Kingdom was $427.4 million, representing 10% of total revenue in 2025."
+      },
+      {
+        "region": "Rest of world",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$728.0 million",
+        "context": "Rest of world revenue was $728.0 million, representing 16% of total revenue in 2025."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "third-party cloud hosting services",
+        "amount": "$1.95 billion",
+        "timeframe": "through September 30, 2033",
+        "context": "Under one of its third-party cloud services agreements, as amended, the Company has committed to spend at least $1.95 billion over ten contract years through September 30, 2033."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "Noncancelable purchase commitments",
+        "amount": "$1.8 billion",
+        "timeframe": "Total",
+        "context": "Noncancelable purchase commitments primarily relate to purchase commitments for third-party cloud hosting services and represents only contracts which are enforceable and legally binding."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "Euro, Japanese yen (JPY), and British pound sterling (GBP)",
+        "sensitivity": "Not quantitatively disclosed",
+        "hedging": "None",
+        "context": "Our results of operations and cash flows are subject to fluctuations due to changes in foreign currency exchange rates, particularly changes in the Euro, Japanese yen (\"JPY\"), and British pound sterling (\"GBP\")."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "Variable rates on credit facility (SOFR)",
+        "sensitivity": "Not quantitatively disclosed",
+        "hedging": "None",
+        "context": "Any borrowings under the credit facility bear interest at variable rates, which would expose us to interest rate risk. Our loans under our credit facility would incur interest at the Secured Overnight Financing Rate (\"SOFR\")."
+      }
+    ],
+    "inventory_composition": []
+  }
+}

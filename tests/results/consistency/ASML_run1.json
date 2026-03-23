@@ -1,0 +1,153 @@
+{
+  "filing": {
+    "form": "20-F",
+    "filing_date": "2026-02-25",
+    "accession_number": "0001628280-26-011378",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Carl Zeiss SMT GmbH",
+        "relationship": "single supplier of optical columns",
+        "context": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany."
+      },
+      {
+        "entity": "Mistral AI",
+        "relationship": "strategic AI partner and investee",
+        "context": "2025 saw us enter a landmark partnership with Mistral AI. We have invested \u20ac1.3 billion in Mistral AI as lead investor and hold an approximately 11% share on a fully diluted basis in the company."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Major Customer 1",
+        "relationship": "accounted for >10% of revenue",
+        "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "optical columns",
+        "supplier": "Carl Zeiss SMT GmbH",
+        "context": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "The Netherlands",
+        "activity": "manufacturing and R&D",
+        "context": "Our headquarters, mainly manufacturing and R&D facilities, are located in Veldhoven, the Netherlands."
+      },
+      {
+        "location": "Germany",
+        "activity": "manufacturing",
+        "context": "Our Berlin campus consists of 10 buildings which are mainly owned properties with a total floor area of 53 thousand square meters."
+      },
+      {
+        "location": "United States",
+        "activity": "manufacturing and R&D",
+        "context": "We maintain R&D and manufacturing operations in a 89 thousand square meters campus which consists of five buildings in Wilton, Connecticut."
+      },
+      {
+        "location": "Taiwan",
+        "activity": "manufacturing",
+        "context": "Our facility in Linkou, Taiwan is comprised of a manufacturing area that is approximately 10 thousand square meters and office space that is approximately 8 thousand square meters."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "grid congestion",
+        "context": "Despite our continued efforts to reduce the energy demand of our operations, we recognize that the broader challenge of grid congestion in the Eindhoven area extends beyond the boundaries of our company alone."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "export control regulations",
+        "context": "Effective January 15, 2025, the Netherlands expanded its export control regulations to include an additional group of semiconductor manufacturing equipment, primarily certain metrology and inspection systems."
+      },
+      {
+        "risk": "rare earth controls",
+        "context": "In 2025, China introduced new rules: it restricted exports of certain rare earth elements, limited technology sharing for processing them and extended these rules to products made abroad if they include any rare earth elements or technology."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Four major customers",
+        "revenue_pct": 61.2,
+        "revenue_amount": "\u20ac20.0 billion",
+        "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "Taiwan",
+        "revenue_pct": 31.3,
+        "revenue_amount": "\u20ac10,217.4 million",
+        "context": "Total net sales by geographic region: Taiwan \u20ac10,217.4 million (31.3%)."
+      },
+      {
+        "region": "South Korea",
+        "revenue_pct": 28.5,
+        "revenue_amount": "\u20ac9,313.4 million",
+        "context": "Total net sales by geographic region: South Korea \u20ac9,313.4 million (28.5%)."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 23.4,
+        "revenue_amount": "\u20ac7,645.1 million",
+        "context": "Total net sales by geographic region: China \u20ac7,645.1 million (23.4%)."
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 9.4,
+        "revenue_amount": "\u20ac3,074.8 million",
+        "context": "Total net sales by geographic region: United States \u20ac3,074.8 million (9.4%)."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "purchase obligations",
+        "amount": "\u20ac13,561.7 million",
+        "timeframe": "through 2030 and thereafter",
+        "context": "We have purchase obligations toward suppliers in the ordinary course of business which mainly relate to goods and services for our operations and obligations relating to further expansion and upgrade of our facilities."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "US dollar, Japanese yen, Taiwanese dollar, South Korean won, Chinese yuan",
+        "sensitivity": "10% strengthening of USD = \u20ac11.6M net income impact",
+        "hedging": "forward foreign exchange contracts",
+        "context": "It is our policy to hedge material transaction exposures, such as forecasted sales and purchase transactions. We hedge these exposures through the use of forward foreign exchange contracts."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "Eurobonds and cash balances",
+        "sensitivity": "100 basis point increase = \u20ac114.8M net income impact",
+        "hedging": "interest rate swaps",
+        "context": "We use interest rate swaps to minimize the net interest exposure for the group by aligning the interest terms of the available cash and the interest-bearing debt."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "\u20ac3,478.7 million",
+        "pct_of_total": 16.5,
+        "context": "Raw materials increased to \u20ac3,478.7 million in 2025 from \u20ac2,831.6 million in 2024."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "\u20ac11,732.1 million",
+        "pct_of_total": 55.6,
+        "context": "Work-in-progress represents the largest component of inventory at \u20ac11,732.1 million."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "\u20ac5,880.8 million",
+        "pct_of_total": 27.9,
+        "context": "Finished goods totaled \u20ac5,880.8 million as of December 31, 2025."
+      }
+    ]
+  }
+}

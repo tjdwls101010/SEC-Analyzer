@@ -1,0 +1,56 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001628280-26-008131",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "data": {
+    "geographic_revenue": [
+      {
+        "region": "EMEA",
+        "revenue_pct": 13.42,
+        "revenue_amount": "$24.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 7.71,
+        "revenue_amount": "$14.1B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 2.31,
+        "revenue_amount": "$4.2B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Total International",
+        "revenue_pct": 23.44,
+        "revenue_amount": "$42.8B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "North America",
+        "revenue_pct": 76.56,
+        "revenue_amount": "$139.7B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.9B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  },
+  "xbrl_available": true
+}

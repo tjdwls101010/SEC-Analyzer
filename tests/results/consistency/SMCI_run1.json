@@ -1,0 +1,226 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2025-08-28",
+    "accession_number": "0001375365-25-000027",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1375365/000137536525000027/smci-20250630.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Ablecom Technology, Inc.",
+        "relationship": "related party contract design and manufacturing coordination support",
+        "context": "We use Ablecom Technology, Inc. (\u201cAblecom\u201d) and its affiliate Compuware Technology, Inc. (\u201cCompuware\u201d), both of which are related parties, for contract design and manufacturing coordination support. We work with Ablecom to optimize modular designs for our chassis and several other components."
+      },
+      {
+        "entity": "Compuware Technology, Inc.",
+        "relationship": "related party contract design, manufacturing, and distribution",
+        "context": "We use Ablecom Technology, Inc. (\u201cAblecom\u201d) and its affiliate Compuware Technology, Inc. (\u201cCompuware\u201d), both of which are related parties, for contract design and manufacturing coordination support. We also have a series of agreements with Compuware, including multiple product development, production and service agreements, as well as product manufacturing agreements."
+      },
+      {
+        "entity": "NVIDIA Corporation",
+        "relationship": "key component vendor (GPU)",
+        "context": "We work closely with the leading microprocessor, graphics processing units (\u201cGPU\u201d), memory, disk/flash, and interconnect vendors... We delivered a comprehensive portfolio of AI-focused solutions, specifically designed to support the latest AI workloads, including products compatible with NVIDIA\u2019s Hopper (H100/H200) and Blackwell (GB200/B200/RTX Pro 6000) generation platforms."
+      },
+      {
+        "entity": "Intel Corporation",
+        "relationship": "key component vendor (CPU)",
+        "context": "We introduced new products supporting Intel \u00ae Xeon \u00ae 6900 Series processors and Intel \u00ae Xeon \u00ae 6 data center CPUs."
+      },
+      {
+        "entity": "Advanced Micro Devices, Inc.",
+        "relationship": "key component vendor (CPU/GPU)",
+        "context": "We introduced new products supporting... AMD EPYC\u2122 9005 Series CPUs and AMD Instinct\u2122 MI350/355 Series GPUs."
+      },
+      {
+        "entity": "Leadtek Research Inc.",
+        "relationship": "authorized reseller and component supplier",
+        "context": "During the fiscal years ended 2025 and 2024, we engaged in transactions whereby we sold $0.7 million and $1.4 million of servers to Leadtek, and purchased $0.5 million and $2.1 million of graphic cards from Leadtek, respectively."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Customer A",
+        "relationship": "major customer (20.9% of net sales)",
+        "context": "Significant customer information is as follows: Customer A accounted for 20.9% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer B",
+        "relationship": "major customer (11.5% of net sales)",
+        "context": "Significant customer information is as follows: Customer B accounted for 11.5% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer C",
+        "relationship": "major customer (11.3% of net sales)",
+        "context": "Significant customer information is as follows: Customer C accounted for 11.3% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer D",
+        "relationship": "major customer (11.1% of net sales)",
+        "context": "Significant customer information is as follows: Customer D accounted for 11.1% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Corporate Venture",
+        "relationship": "related party customer",
+        "context": "We sold products worth $11.0 million, $21.8 million, and $24.2 million to the Corporate Venture in the fiscal years 2025, 2024, and 2023, respectively."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "Server chassis",
+        "supplier": "Ablecom Technology, Inc.",
+        "context": "Ablecom manufactured approximately 95.4%, 93.6%, and 91.9% of the chassis purchased by us during fiscal years 2025, 2024, and 2023, respectively. Since Ablecom manufactures substantially all the chassis that we incorporate into its products, if Ablecom were to suddenly be unable to manufacture chassis for us, our business could suffer."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "San Jose, California",
+        "activity": "headquarters, research and development, and manufacturing",
+        "context": "We manufacture the majority of our systems at our San Jose, California headquarters. Our principal executive offices, research and development center, and production operations are in San Jose, California."
+      },
+      {
+        "location": "Taiwan",
+        "activity": "manufacturing, research and development, and service operations",
+        "context": "Global assembly, test and quality control of our servers are performed at our manufacturing facilities in San Jose, California, Taiwan, the Netherlands, and Malaysia. Our research and development center, service operations, and warehouse space in Asia are in an approximately 153,000 square feet facility in Taipei and Hsinchu, Taiwan."
+      },
+      {
+        "location": "Netherlands",
+        "activity": "manufacturing and service operations",
+        "context": "Our European headquarters for manufacturing and service operations is located in Den Bosch, the Netherlands where we own approximately 12,000 square feet of office space and lease approximately 350,000 square feet of office and manufacturing space."
+      },
+      {
+        "location": "Malaysia",
+        "activity": "manufacturing and dormitory",
+        "context": "Additionally as part of our efforts to expand our capacities, we added a new facility in Malaysia during the fiscal year ended June 30, 2025. In Malaysia where we own approximately 590,000 square feet of dormitory, office, and manufacturing space on 30 acres of land."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "global supply chain shortages",
+        "context": "Additionally, during fiscal year 2025, the computer server industry experienced global supply chain shortages, which resulted in a need to carry more inventory to fulfill demand from our customers and partners."
+      },
+      {
+        "constraint": "component supply constraints",
+        "context": "For a variety of reasons, including supply constraints of some key components and forecasts for the demand for our products, the purchase orders we place for such components and materials have resulted in a growth of inventory."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "supplier concentration",
+        "context": "Two of our suppliers accounted for accounted for a significant portion of our total purchases: 64.4% and 5.1% in fiscal year 2025."
+      },
+      {
+        "risk": "export control regulations",
+        "context": "In October 2022, U.S. export restrictions and export licensing requirements were imposed targeting China\u2019s semiconductor and supercomputing industries. These restrictions impacted certain of our products, including products that contain the NVIDIA A100 and H100 integrated circuits, among others."
+      },
+      {
+        "risk": "tariff impact",
+        "context": "The year-over-year increase in cost of sales was primarily attributed to... a $86.5 million or 493.6% increase in tariff expense related to new trade policies enacted during the year."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Customer A",
+        "revenue_pct": 20.9,
+        "revenue_amount": "$4.59 billion",
+        "context": "Significant customer information is as follows: Customer A accounted for 20.9% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer B",
+        "revenue_pct": 11.5,
+        "revenue_amount": "$2.53 billion",
+        "context": "Significant customer information is as follows: Customer B accounted for 11.5% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer C",
+        "revenue_pct": 11.3,
+        "revenue_amount": "$2.48 billion",
+        "context": "Significant customer information is as follows: Customer C accounted for 11.3% of total net sales in fiscal year 2025."
+      },
+      {
+        "entity": "Customer D",
+        "revenue_pct": 11.1,
+        "revenue_amount": "$2.44 billion",
+        "context": "Significant customer information is as follows: Customer D accounted for 11.1% of total net sales in fiscal year 2025."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 59.4,
+        "revenue_amount": "$13,052.6 million",
+        "context": "United States net sales were $13,052.6 million, representing 59.4% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Asia",
+        "revenue_pct": 25.0,
+        "revenue_amount": "$5,494.1 million",
+        "context": "Asia net sales were $5,494.1 million, representing 25.0% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Europe",
+        "revenue_pct": 12.4,
+        "revenue_amount": "$2,727.0 million",
+        "context": "Europe net sales were $2,727.0 million, representing 12.4% of total net sales in fiscal year 2025."
+      },
+      {
+        "region": "Other",
+        "revenue_pct": 3.2,
+        "revenue_amount": "$698.3 million",
+        "context": "Other regions net sales were $698.3 million, representing 3.2% of total net sales in fiscal year 2025."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Various",
+        "obligation_type": "non-cancelable purchase commitments",
+        "amount": "$1.6 billion",
+        "timeframe": "primarily through the next 12 months",
+        "context": "As of June 30, 2025, these remaining non-cancelable commitments were $1.6 billion, including $148.9 million to related parties."
+      },
+      {
+        "counterparty": "4701 Santa Fe, LLC",
+        "obligation_type": "data center lease",
+        "amount": "$292.0 million",
+        "timeframe": "through October 31, 2035",
+        "context": "In June 2024, we entered into a lease agreement for a 21 megawatt (\u201cMW\u201d) data center co-location space... on top of the estimated over $292.0 million financial obligation we have to the supplier for the term of the lease."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "borrowings under term loan and revolving lines of credit",
+        "sensitivity": "10% change in interest rates would not have a significant impact",
+        "hedging": "Not disclosed",
+        "context": "Based on the outstanding principal indebtedness of $112.5 million under our credit facilities as of June 30, 2025, we believe that a 10% change in interest rates would not have a significant impact on the results of operations."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "foreign currency exchange rate fluctuations (Netherlands, Taiwan, Malaysia)",
+        "sensitivity": "10% change in foreign currency exchange rates would not have a significant impact",
+        "hedging": "Not disclosed",
+        "context": "The functional currency of our subsidiaries in the Netherlands, Taiwan and Malaysia is the U.S. dollar. However, certain loans and transactions in these entities are denominated in a currency other than the U.S. dollar."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "finished_goods",
+        "amount": "$3,465.4 million",
+        "pct_of_total": 74.0,
+        "context": "Finished goods inventory was $3,465,352 thousand as of June 30, 2025."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$674.6 million",
+        "pct_of_total": 14.4,
+        "context": "Work in process inventory was $674,613 thousand as of June 30, 2025."
+      },
+      {
+        "category": "raw_materials",
+        "amount": "$540.4 million",
+        "pct_of_total": 11.5,
+        "context": "Purchased parts and raw materials inventory was $540,410 thousand as of June 30, 2025."
+      }
+    ]
+  }
+}

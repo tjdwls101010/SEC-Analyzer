@@ -1,0 +1,193 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0001045810-26-000021",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Taiwan Semiconductor Manufacturing Company Limited",
+        "relationship": "foundry for semiconductor wafers",
+        "context": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers."
+      },
+      {
+        "entity": "Samsung Electronics Co., Ltd.",
+        "relationship": "foundry for semiconductor wafers and memory supplier",
+        "context": "We utilize foundries, such as Taiwan Semiconductor Manufacturing Company Limited, or TSMC, and Samsung Electronics Co., Ltd., or Samsung, to produce our semiconductor wafers. We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung."
+      },
+      {
+        "entity": "SK Hynix Inc.",
+        "relationship": "memory supplier",
+        "context": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung."
+      },
+      {
+        "entity": "Micron Technology, Inc.",
+        "relationship": "memory supplier",
+        "context": "We purchase memory from SK Hynix Inc., Micron Technology, Inc., and Samsung."
+      },
+      {
+        "entity": "Hon Hai Precision Industry Co., Ltd.",
+        "relationship": "independent subcontractor and contract manufacturer",
+        "context": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products."
+      },
+      {
+        "entity": "Wistron Corporation",
+        "relationship": "independent subcontractor and contract manufacturer",
+        "context": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products."
+      },
+      {
+        "entity": "Fabrinet",
+        "relationship": "independent subcontractor and contract manufacturer",
+        "context": "We engage with independent subcontractors and contract manufacturers such as Hon Hai Precision Industry Co., Ltd., Wistron Corporation, and Fabrinet to perform assembly, testing and packaging of our final products."
+      },
+      {
+        "entity": "Groq, Inc.",
+        "relationship": "intellectual property licensor",
+        "context": "We have entered into an intellectual property license arrangement with Groq, Inc., or Groq, that required significant, nonrefundable payments."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Microsoft Corporation",
+        "relationship": "customer and partner for Xbox",
+        "context": "Under our agreement with Microsoft for the Xbox, if someone makes an offer to purchase at least 30% of our outstanding common stock, Microsoft may have first and last rights of refusal to purchase the stock."
+      }
+    ],
+    "single_source_dependencies": [],
+    "geographic_concentration": [
+      {
+        "location": "Asia",
+        "activity": "manufacturing, assembly, testing, and packaging",
+        "context": "While currently our supply chain is mainly concentrated in Asia, we are expanding into the U.S. and Latin America. Our semiconductor wafers are manufactured, assembled, tested and packaged by third parties located outside of the United States."
+      },
+      {
+        "location": "Taiwan",
+        "activity": "manufacturing and supply",
+        "context": "Finally, our business depends on our ability to receive consistent and reliable supply from our overseas partners, especially in Taiwan and South Korea."
+      },
+      {
+        "location": "South Korea",
+        "activity": "manufacturing and supply",
+        "context": "Finally, our business depends on our ability to receive consistent and reliable supply from our overseas partners, especially in Taiwan and South Korea."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "extended lead times",
+        "context": "In periods of shortages impacting the semiconductor industry and/or limited supply or capacity in our supply chain, the lead times for certain supply may be extended. We have previously experienced and may continue to experience extended lead times of more than 12 months."
+      },
+      {
+        "constraint": "supply constraints in Gaming",
+        "context": "We expect supply constraints to be a headwind to Gaming in the first quarter of fiscal year 2027 and beyond."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "export control restrictions",
+        "context": "Over the past three years, we have been subject to a series of shifting and expanding export control restrictions, impacting our ability to serve customers outside the United States."
+      },
+      {
+        "risk": "geographic concentration in Asia",
+        "context": "Geopolitical tensions in regions where we rely on suppliers, contract manufacturers, and assembly partners that are critical to our supply continuity, could have a material adverse impact on us."
+      },
+      {
+        "risk": "raw material and component shortages",
+        "context": "In periods of growth, we may place non-cancellable inventory orders for certain product components in advance of our historical lead times, pay premiums, or provide deposits to secure future supply and capacity and may need to continue to do so."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Direct Customer A",
+        "revenue_pct": 22.0,
+        "revenue_amount": "null",
+        "context": "For fiscal year 2026, sales to one direct customer represented 22% of total revenue... all of which were primarily attributable to the Compute & Networking segment."
+      },
+      {
+        "entity": "Direct Customer B",
+        "revenue_pct": 14.0,
+        "revenue_amount": "null",
+        "context": "sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 69.0,
+        "revenue_amount": "$149,617 million",
+        "context": "United States: $149,617 million. Revenue from sales to customers headquartered outside of the United States accounted for 31% and 41% of total revenue for fiscal years 2026 and 2025, respectively."
+      },
+      {
+        "region": "Taiwan",
+        "revenue_pct": 19.6,
+        "revenue_amount": "$42,345 million",
+        "context": "Taiwan: $42,345 million. In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe."
+      },
+      {
+        "region": "China (including Hong Kong)",
+        "revenue_pct": 9.1,
+        "revenue_amount": "$19,677 million",
+        "context": "China (including Hong Kong): $19,677 million."
+      },
+      {
+        "region": "Other",
+        "revenue_pct": 2.0,
+        "revenue_amount": "$4,299 million",
+        "context": "Other: $4,299 million."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "null",
+        "obligation_type": "manufacturing, supply, and capacity commitments",
+        "amount": "$95.2 billion",
+        "timeframe": "through fiscal 2027",
+        "context": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027."
+      },
+      {
+        "counterparty": "null",
+        "obligation_type": "multi-year cloud service agreement commitments",
+        "amount": "$27 billion",
+        "timeframe": "through fiscal 2032 and thereafter",
+        "context": "Multi-year cloud service agreement commitments as of January 25, 2026, were $27 billion, for which $7 billion, $6 billion, $5 billion, $5 billion, $2 billion, and $2 billion will be paid in fiscal years 2027, 2028, 2029, 2030, 2031, and 2032 and thereafter, respectively."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "foreign currency exchange rate fluctuations",
+        "sensitivity": "10% USD strengthening = $180 million adverse impact on AOCI",
+        "hedging": "foreign currency forward contracts",
+        "context": "If the U.S. dollar strengthened by 10% as of January 25, 2026 and January 26, 2025, the amount recorded in Accumulated other comprehensive income (loss) related to our foreign exchange contracts before tax effect would have been an adverse impact of $180 million and $136 million, respectively."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "fixed-rate investment portfolio",
+        "sensitivity": "0.5% decrease in yield curve = $0.2 billion decrease in fair value",
+        "hedging": "null",
+        "context": "According to our sensitivity analysis on our investment portfolio, a decrease in the yield curve of 0.5% as of the end of fiscal year 2026 and 2025 would decrease the fair value for these investments by approximately $0.2 billion."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$3,807 million",
+        "pct_of_total": 17.8,
+        "context": "Raw materials: $3,807 million. Total inventories: $21,403 million."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$8,822 million",
+        "pct_of_total": 41.2,
+        "context": "Work in process: $8,822 million. Total inventories: $21,403 million."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8,774 million",
+        "pct_of_total": 41.0,
+        "context": "Finished goods: $8,774 million. Total inventories: $21,403 million."
+      }
+    ]
+  }
+}

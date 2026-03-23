@@ -1,0 +1,167 @@
+{
+  "ticker": "CAT",
+  "revenue_concentration": {
+    "llm_count": 3,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "entity": "Power & Energy",
+        "revenue_pct": 47.6,
+        "revenue_amount": "$32.201 billion",
+        "context": "Power & Energy\u2019s total sales were $32.201 billion in 2025, an increase of $3.347 billion, or 12 percent, compared with $28.854 billion in 2024."
+      },
+      {
+        "entity": "Construction Industries",
+        "revenue_pct": 37.1,
+        "revenue_amount": "$25.060 billion",
+        "context": "Construction Industries\u2019 total sales were $25.060 billion in 2025, a decrease of $395 million, or 2 percent, compared with $25.455 billion in 2024."
+      },
+      {
+        "entity": "Resource Industries",
+        "revenue_pct": 18.5,
+        "revenue_amount": "$12.474 billion",
+        "context": "Resource Industries\u2019 total sales were $12.474 billion in 2025, an increase of $3 million, or about flat, compared with $12.471 billion in 2024."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 6,
+    "llm_items": [
+      {
+        "region": "North America",
+        "revenue_pct": 54.2,
+        "revenue_amount": "$36.609 billion",
+        "context": "North America sales increased 6 percent due to higher sales volume... Consolidated Sales and Revenues [for North America] $36,609 [million]."
+      },
+      {
+        "region": "EAME",
+        "revenue_pct": 18.9,
+        "revenue_amount": "$12.793 billion",
+        "context": "EAME sales increased 4 percent mainly due to higher sales volume... Consolidated Sales and Revenues [for EAME] $12,793 [million]."
+      },
+      {
+        "region": "Asia/Pacific",
+        "revenue_pct": 16.6,
+        "revenue_amount": "$11.199 billion",
+        "context": "Asia/Pacific sales decreased 2 percent primarily due to unfavorable currency impacts... Consolidated Sales and Revenues [for Asia/Pacific] $11,199 [million]."
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 10.3,
+        "revenue_amount": "$6.988 billion",
+        "context": "Sales increased 4 percent in Latin America primarily due to higher sales volume... Consolidated Sales and Revenues [for Latin America] $6,988 [million]."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "North America",
+        "revenue_pct": 19.02,
+        "revenue_amount": "$14.1B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 3.19,
+        "revenue_amount": "$2.4B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 6.21,
+        "revenue_amount": "$4.6B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 5.12,
+        "revenue_amount": "$3.8B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 44.46,
+        "revenue_amount": "$32.9B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Non Us",
+        "revenue_pct": 46.93,
+        "revenue_amount": "$34.7B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 3,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$7.434 billion",
+        "pct_of_total": 41.0,
+        "context": "Raw materials [at December 31, 2025]: $7,434 million."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$1.598 billion",
+        "pct_of_total": 8.8,
+        "context": "Work-in-process [at December 31, 2025]: $1,598 million."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.725 billion",
+        "pct_of_total": 48.1,
+        "context": "Finished goods [at December 31, 2025]: $8,725 million."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$7.4B",
+        "source": "xbrl",
+        "pct_of_total": 40.99
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$1.6B",
+        "source": "xbrl",
+        "pct_of_total": 8.81
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.7B",
+        "source": "xbrl",
+        "pct_of_total": 48.11
+      }
+    ]
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "counterparty": "unnamed key suppliers",
+        "obligation_type": "minimum purchase quantities",
+        "amount": "$2.399 billion",
+        "timeframe": "long-term",
+        "context": "We also have long-term contractual obligations primarily for... long-term commitments entered into with key suppliers for minimum purchase quantities. These obligations total $2.399 billion, with $695 million due in the next 12 months."
+      },
+      {
+        "counterparty": "unnamed suppliers",
+        "obligation_type": "material and services on order",
+        "amount": "$9.633 billion",
+        "timeframe": "short-term",
+        "context": "In addition, we have contractual obligations for material and services on order at December 31, 2025, but not yet invoiced or delivered, of $9.633 billion."
+      }
+    ],
+    "xbrl_items": []
+  }
+}

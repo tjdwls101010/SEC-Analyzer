@@ -1,0 +1,149 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-03-05",
+    "accession_number": "0001535527-26-000010",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Amazon Web Services, Inc.",
+        "relationship": "primary cloud infrastructure provider",
+        "context": "We currently host our Falcon platform and serve our customers using a mix of third-party data centers, primarily Amazon Web Services, Inc., or AWS, and our data centers, hosted in colocation facilities."
+      },
+      {
+        "entity": "Pearson Vue",
+        "relationship": "training and certification partner",
+        "context": "CrowdStrike currently offers proctored exam certifications through industry leading training partner Pearson Vue for our CrowdStrike Certified Falcon Administrator, Falcon Responder, Falcon Hunter, Cloud Specialist, Identity Specialist, and Next-Gen SIEM Engineer programs."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "U.S. federal government",
+        "relationship": "public sector customer",
+        "context": "We continue to invest heavily in the acquisition of customers in the U.S. federal government as well as the state, local, and higher education verticals."
+      },
+      {
+        "entity": "Cybersecurity and Infrastructure Security Agency",
+        "relationship": "public sector customer",
+        "context": "As a result, the Cybersecurity and Infrastructure Security Agency has leveraged a significant investment in our platform to support modernization efforts within the Federal Civilian Executive Branch."
+      },
+      {
+        "entity": "Delta Airlines, Inc.",
+        "relationship": "customer (involved in litigation)",
+        "context": "On October 25, 2024, Delta Airlines, Inc. (\u201cDelta\u201d) filed a complaint against CrowdStrike, Inc. in the Superior Court for Fulton County, Georgia, alleging, among other things, computer trespass, trespass to personalty, breach of contract, intentional misrepresentation/fraud by omission, strict-liability product defect, gross negligence, and deceptive and unfair business practices."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "cloud infrastructure services",
+        "supplier": "Amazon Web Services, Inc.",
+        "context": "We currently host our Falcon platform and serve our customers using a mix of third-party data centers, primarily Amazon Web Services, Inc., or AWS, and our data centers, hosted in colocation facilities. Because of the importance of AWS\u2019 services to our business and AWS\u2019 position in the cloud-based server industry, any renegotiation or renewal of our agreement with AWS may be on terms that are significantly less favorable to us than our current agreement."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "headquarters and data center operations",
+        "context": "Our principal executive offices are located in Austin, Texas... We have data center co-location facilities throughout the United States and in Europe."
+      },
+      {
+        "location": "Europe",
+        "activity": "data center operations",
+        "context": "We have data center co-location facilities throughout the United States and in Europe, and we also utilize third-party data centers located in the United States and Europe."
+      },
+      {
+        "location": "Romania",
+        "activity": "research and development",
+        "context": "We also maintain research and development centers internationally, including in Romania, Israel and India."
+      },
+      {
+        "location": "Israel",
+        "activity": "research and development",
+        "context": "We also maintain research and development centers internationally, including in Romania, Israel and India."
+      },
+      {
+        "location": "India",
+        "activity": "research and development",
+        "context": "We also maintain research and development centers internationally, including in Romania, Israel and India."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "data center capacity and component shortages",
+        "context": "The technology industry has experienced widespread component shortages and delivery delays... supply chain disruptions and delays could nevertheless adversely impact our operations by, among other things, causing us to delay opening new data centers, delay increasing capacity or replacing defective equipment at existing data centers."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "limited number of equipment suppliers",
+        "context": "We rely on a limited number of suppliers for several components of the equipment we use to operate our cloud platform and provide services to our customers. We generally purchase these components on a purchase order basis, and do not have long-term contracts guaranteeing supply."
+      },
+      {
+        "risk": "geopolitical and tariff impacts on components",
+        "context": "The technology industry has experienced widespread component shortages and delivery delays, including as a result of geopolitical tensions (including actual or threatened changes in tariffs and trade restrictions), public health crises and natural disasters."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "No single customer",
+        "revenue_pct": null,
+        "revenue_amount": "N/A",
+        "context": "There were no channel partners or direct customers who represented 10% or more of the Company\u2019s total revenue during the fiscal years ended January 31, 2026, January 31, 2025, and January 31, 2024."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 67.0,
+        "revenue_amount": "$3,216.7 million",
+        "context": "United States revenue for the year ended January 31, 2026 was $3,216,654 thousand, representing 67% of total revenue."
+      },
+      {
+        "region": "Europe, Middle East, and Africa",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$782.7 million",
+        "context": "Europe, Middle East, and Africa revenue for the year ended January 31, 2026 was $782,666 thousand, representing 16% of total revenue."
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 10.0,
+        "revenue_amount": "$495.7 million",
+        "context": "Asia Pacific revenue for the year ended January 31, 2026 was $495,701 thousand, representing 10% of total revenue."
+      },
+      {
+        "region": "Other",
+        "revenue_pct": 7.0,
+        "revenue_amount": "$317.0 million",
+        "context": "Other regions revenue for the year ended January 31, 2026 was $316,984 thousand, representing 7% of total revenue."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "non-cancelable purchase commitments",
+        "amount": "$2.8 billion",
+        "timeframe": "remaining terms in excess of 12 months",
+        "context": "We have non-cancelable purchase commitments with various parties to purchase products and services entered in the normal course of business totaling $2.8 billion as of January 31, 2026, with remaining terms in excess of 12 months."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "cash equivalents and Senior Notes",
+        "sensitivity": "100 basis point change = not material",
+        "hedging": "None",
+        "context": "The effect of a hypothetical 100 basis point change in interest rates would not have had a material effect on the fair market value of our portfolio as of January 31, 2026 or January 31, 2025."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "British Pound, Australian Dollar, and Euro",
+        "sensitivity": "10% adverse change = $138.8 million increase in operating loss",
+        "hedging": "None",
+        "context": "A hypothetical 10% adverse change in the U.S. dollar against other currencies would have resulted in an increase in operating loss of approximately $138.8 million... for the fiscal year ended January 31, 2026."
+      }
+    ],
+    "inventory_composition": []
+  }
+}

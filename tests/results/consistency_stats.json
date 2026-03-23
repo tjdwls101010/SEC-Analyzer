@@ -1,0 +1,1331 @@
+{
+  "NVDA": {
+    "suppliers": {
+      "counts": [
+        8,
+        8,
+        8
+      ],
+      "min": 8,
+      "max": 8,
+      "mean": 8.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        4,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 4,
+      "mean": 2.0,
+      "std": 1.41,
+      "cv": 0.707
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        0,
+        1
+      ],
+      "min": 0,
+      "max": 1,
+      "mean": 0.67,
+      "std": 0.47,
+      "cv": 0.707
+    },
+    "geographic_concentration": {
+      "counts": [
+        4,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 4,
+      "mean": 3.33,
+      "std": 0.47,
+      "cv": 0.141
+    },
+    "capacity_constraints": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "AAPL": {
+    "suppliers": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        6,
+        6,
+        6
+      ],
+      "min": 6,
+      "max": 6,
+      "mean": 6.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "capacity_constraints": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "F": {
+    "suppliers": {
+      "counts": [
+        6,
+        3,
+        4
+      ],
+      "min": 3,
+      "max": 6,
+      "mean": 4.33,
+      "std": 1.25,
+      "cv": 0.288
+    },
+    "customers": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        4,
+        3,
+        4
+      ],
+      "min": 3,
+      "max": 4,
+      "mean": 3.67,
+      "std": 0.47,
+      "cv": 0.129
+    },
+    "capacity_constraints": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    },
+    "geographic_revenue": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "CAT": {
+    "suppliers": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        1,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 1,
+      "mean": 0.33,
+      "std": 0.47,
+      "cv": 1.414
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        3,
+        4,
+        4
+      ],
+      "min": 3,
+      "max": 4,
+      "mean": 3.67,
+      "std": 0.47,
+      "cv": 0.129
+    },
+    "capacity_constraints": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        3,
+        3
+      ],
+      "min": 2,
+      "max": 3,
+      "mean": 2.67,
+      "std": 0.47,
+      "cv": 0.177
+    },
+    "revenue_concentration": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "TSM": {
+    "suppliers": {
+      "counts": [
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        11,
+        11
+      ],
+      "min": 11,
+      "max": 11,
+      "mean": 11.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        2,
+        5
+      ],
+      "min": 2,
+      "max": 5,
+      "mean": 3.5,
+      "std": 1.5,
+      "cv": 0.429
+    },
+    "capacity_constraints": {
+      "counts": [
+        1,
+        2
+      ],
+      "min": 1,
+      "max": 2,
+      "mean": 1.5,
+      "std": 0.5,
+      "cv": 0.333
+    },
+    "supply_chain_risks": {
+      "counts": [
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "mean": 5.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        1
+      ],
+      "min": 1,
+      "max": 2,
+      "mean": 1.5,
+      "std": 0.5,
+      "cv": 0.333
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "ASML": {
+    "suppliers": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "capacity_constraints": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        3,
+        2
+      ],
+      "min": 2,
+      "max": 3,
+      "mean": 2.33,
+      "std": 0.47,
+      "cv": 0.202
+    },
+    "revenue_concentration": {
+      "counts": [
+        1,
+        3,
+        1
+      ],
+      "min": 1,
+      "max": 3,
+      "mean": 1.67,
+      "std": 0.94,
+      "cv": 0.566
+    },
+    "geographic_revenue": {
+      "counts": [
+        4,
+        5,
+        4
+      ],
+      "min": 4,
+      "max": 5,
+      "mean": 4.33,
+      "std": 0.47,
+      "cv": 0.109
+    },
+    "purchase_obligations": {
+      "counts": [
+        1,
+        2,
+        2
+      ],
+      "min": 1,
+      "max": 2,
+      "mean": 1.67,
+      "std": 0.47,
+      "cv": 0.283
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  },
+  "CRWD": {
+    "suppliers": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        4,
+        5,
+        5
+      ],
+      "min": 4,
+      "max": 5,
+      "mean": 4.67,
+      "std": 0.47,
+      "cv": 0.101
+    },
+    "capacity_constraints": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        0,
+        0,
+        1
+      ],
+      "min": 0,
+      "max": 1,
+      "mean": 0.33,
+      "std": 0.47,
+      "cv": 1.414
+    },
+    "geographic_revenue": {
+      "counts": [
+        3,
+        4,
+        4
+      ],
+      "min": 3,
+      "max": 4,
+      "mean": 3.67,
+      "std": 0.47,
+      "cv": 0.129
+    },
+    "purchase_obligations": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    }
+  },
+  "JPM": {
+    "suppliers": {
+      "counts": [
+        5,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 5,
+      "mean": 3.67,
+      "std": 0.94,
+      "cv": 0.257
+    },
+    "customers": {
+      "counts": [
+        1,
+        3,
+        3
+      ],
+      "min": 1,
+      "max": 3,
+      "mean": 2.33,
+      "std": 0.94,
+      "cv": 0.404
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 1,
+      "mean": 0.33,
+      "std": 0.47,
+      "cv": 1.414
+    },
+    "geographic_concentration": {
+      "counts": [
+        3,
+        4,
+        3
+      ],
+      "min": 3,
+      "max": 4,
+      "mean": 3.33,
+      "std": 0.47,
+      "cv": 0.141
+    },
+    "capacity_constraints": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        2,
+        3
+      ],
+      "min": 2,
+      "max": 3,
+      "mean": 2.33,
+      "std": 0.47,
+      "cv": 0.202
+    },
+    "revenue_concentration": {
+      "counts": [
+        3,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 3,
+      "mean": 1.0,
+      "std": 1.41,
+      "cv": 1.414
+    },
+    "geographic_revenue": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    }
+  },
+  "PLTR": {
+    "suppliers": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "customers": {
+      "counts": [
+        8,
+        8,
+        5
+      ],
+      "min": 5,
+      "max": 8,
+      "mean": 7.0,
+      "std": 1.41,
+      "cv": 0.202
+    },
+    "single_source_dependencies": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        3,
+        2,
+        3
+      ],
+      "min": 2,
+      "max": 3,
+      "mean": 2.67,
+      "std": 0.47,
+      "cv": 0.177
+    },
+    "capacity_constraints": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    },
+    "supply_chain_risks": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 2,
+      "mean": 1.33,
+      "std": 0.47,
+      "cv": 0.354
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "min": 0,
+      "max": 0,
+      "mean": 0.0,
+      "std": 0.0,
+      "cv": 0
+    }
+  },
+  "SMCI": {
+    "suppliers": {
+      "counts": [
+        6,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 6,
+      "mean": 5.33,
+      "std": 0.47,
+      "cv": 0.088
+    },
+    "customers": {
+      "counts": [
+        5,
+        5,
+        5
+      ],
+      "min": 5,
+      "max": 5,
+      "mean": 5.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "single_source_dependencies": {
+      "counts": [
+        1,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 1,
+      "mean": 1.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_concentration": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "capacity_constraints": {
+      "counts": [
+        2,
+        1,
+        1
+      ],
+      "min": 1,
+      "max": 2,
+      "mean": 1.33,
+      "std": 0.47,
+      "cv": 0.354
+    },
+    "supply_chain_risks": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "revenue_concentration": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "geographic_revenue": {
+      "counts": [
+        4,
+        4,
+        4
+      ],
+      "min": 4,
+      "max": 4,
+      "mean": 4.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "purchase_obligations": {
+      "counts": [
+        2,
+        2,
+        3
+      ],
+      "min": 2,
+      "max": 3,
+      "mean": 2.33,
+      "std": 0.47,
+      "cv": 0.202
+    },
+    "market_risk_disclosures": {
+      "counts": [
+        2,
+        2,
+        2
+      ],
+      "min": 2,
+      "max": 2,
+      "mean": 2.0,
+      "std": 0.0,
+      "cv": 0.0
+    },
+    "inventory_composition": {
+      "counts": [
+        3,
+        3,
+        3
+      ],
+      "min": 3,
+      "max": 3,
+      "mean": 3.0,
+      "std": 0.0,
+      "cv": 0.0
+    }
+  }
+}

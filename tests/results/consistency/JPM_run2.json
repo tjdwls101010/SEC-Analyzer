@@ -1,0 +1,145 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001628280-26-008131",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "PricewaterhouseCoopers LLP",
+        "relationship": "independent registered public accounting firm",
+        "context": "The Consolidated Financial Statements, together with the Notes thereto and the report thereon dated February 13, 2026, of PricewaterhouseCoopers LLP, the Firm\u2019s independent registered public accounting firm (PCAOB ID 238), appear on pages 162\u2013314."
+      },
+      {
+        "entity": "Deutsche Bank Trust Company Americas",
+        "relationship": "Trustee",
+        "context": "Indenture, dated as of October 21, 2010, between JPMorgan Chase & Co. and Deutsche Bank Trust Company Americas, as Trustee."
+      },
+      {
+        "entity": "U.S. Bank Trust National Association",
+        "relationship": "Trustee",
+        "context": "Subordinated Indenture, dated as of March 14, 2014, between JPMorgan Chase & Co. and U.S. Bank Trust National Association, as Trustee."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Apple",
+        "relationship": "partner for Apple Card portfolio",
+        "context": "On January 7, 2026, JPMorganChase announced that Chase will become the new issuer of Apple Card. The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio."
+      },
+      {
+        "entity": "U.S. government agencies",
+        "relationship": "purchaser of mortgage loans",
+        "context": "The Firm, in the normal course of business, sells originated and purchased mortgage loans and certain originated excess MSRs on a nonrecourse basis, predominantly to U.S. GSEs."
+      },
+      {
+        "entity": "Ginnie Mae",
+        "relationship": "purchaser of mortgage loans",
+        "context": "The Firm also sells loans into securitization transactions pursuant to Ginnie Mae guidelines; these loans are typically insured or guaranteed by another U.S. government agency."
+      }
+    ],
+    "single_source_dependencies": [],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "principal executive offices and major operations",
+        "context": "JPMorgan Chase & Co. (\u201cJPMorganChase\u201d or the \u201cFirm\u201d, NYSE: JPM), a financial holding company incorporated under Delaware law in 1968, is a leading financial services firm based in the United States of America (\u201cU.S.\u201d), with operations worldwide."
+      },
+      {
+        "location": "United Kingdom",
+        "activity": "principal operating subsidiary location",
+        "context": "The Firm\u2019s principal operating subsidiaries outside the U.S. are J.P. Morgan Securities plc and J.P. Morgan SE (\u201cJPMSE\u201d), which are subsidiaries of JPMorgan Chase Bank, N.A. and are based in the United Kingdom (\u201cU.K.\u201d) and Germany, respectively."
+      },
+      {
+        "location": "Germany",
+        "activity": "principal operating subsidiary location",
+        "context": "The Firm\u2019s principal operating subsidiaries outside the U.S. are J.P. Morgan Securities plc and J.P. Morgan SE (\u201cJPMSE\u201d), which are subsidiaries of JPMorgan Chase Bank, N.A. and are based in the United Kingdom (\u201cU.K.\u201d) and Germany, respectively."
+      },
+      {
+        "location": "India",
+        "activity": "major facility location",
+        "context": "The Firm owned or leased facilities in the following locations at December 31, 2025... India 6.6 million square feet."
+      }
+    ],
+    "capacity_constraints": [],
+    "supply_chain_risks": [
+      {
+        "risk": "geopolitical and macroeconomic environment",
+        "context": "The Firm's qualitative adjustments and its weighted-average macroeconomic outlook continued to include additional weight placed on the adverse scenarios to reflect ongoing uncertainties and downside risks related to the geopolitical and macroeconomic environment."
+      },
+      {
+        "risk": "third-party service provider disruption",
+        "context": "JPMorganChase also depends on its ability to access and use the operational systems of third parties, including: custodians; vendors, including providers of security, technology and data and cloud computing services; and other market participants."
+      }
+    ],
+    "revenue_concentration": [],
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 76.56,
+        "revenue_amount": "$139,689 million",
+        "context": "North America revenue for 2025 was $139,689 million out of a total $182,447 million."
+      },
+      {
+        "region": "Europe/Middle East/Africa",
+        "revenue_pct": 13.42,
+        "revenue_amount": "$24,478 million",
+        "context": "Europe/Middle East/Africa revenue for 2025 was $24,478 million out of a total $182,447 million."
+      },
+      {
+        "region": "Asia-Pacific",
+        "revenue_pct": 7.71,
+        "revenue_amount": "$14,065 million",
+        "context": "Asia-Pacific revenue for 2025 was $14,065 million out of a total $182,447 million."
+      },
+      {
+        "region": "Latin America/Caribbean",
+        "revenue_pct": 2.31,
+        "revenue_amount": "$4,215 million",
+        "context": "Latin America/Caribbean revenue for 2025 was $4,215 million out of a total $182,447 million."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Apple",
+        "obligation_type": "forward purchase commitment",
+        "amount": "$104 billion",
+        "timeframe": "expected closing in approximately 24 months",
+        "context": "The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio, with an expected closing in approximately 24 months (the \u201cApple Card transaction\u201d). At December 31, 2025, includes estimated total credit exposure related to the Apple Card transaction at the time that the transaction is expected to close of approximately $104 billion."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "operating lease commitments",
+        "amount": "$1.9 billion",
+        "timeframe": "commence between 2026 and 2029",
+        "context": "As of December 31, 2025, the Firm had additional future operating lease commitments of $1.9 billion that were signed but had not yet commenced. These operating leases will commence between 2026 and 2029 with lease terms up to 21 years."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "structural interest rate risk",
+        "sensitivity": "+100 bps shift in rates = $2.1 billion impact",
+        "hedging": "investment securities portfolio and interest rate derivatives",
+        "context": "The Firm manages structural interest rate risk generally through its investment securities portfolio and interest rate derivatives. +100 bps shift in rates: $2.1 billion."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "Non-U.S. dollar FX risk",
+        "sensitivity": "10% depreciation of currency = $19 million impact",
+        "hedging": "derivatives",
+        "context": "Non-U.S. dollar FX risk is the risk that changes in foreign exchange rates affect the value of the Firm\u2019s assets or liabilities or future results. Non-USD LTD hedges foreign currency (\u201cFX\u201d) exposure: 10% depreciation of currency: $19 million."
+      },
+      {
+        "risk_type": "commodity",
+        "exposure": "physical commodities inventories",
+        "sensitivity": "not quantitatively disclosed as a single sensitivity",
+        "hedging": "fair value hedges of commodity risk",
+        "context": "Principal transactions revenue also includes realized and unrealized gains and losses related to: derivatives designated in qualifying hedge accounting relationships, primarily fair value hedges of commodity and foreign exchange risk."
+      }
+    ],
+    "inventory_composition": []
+  }
+}

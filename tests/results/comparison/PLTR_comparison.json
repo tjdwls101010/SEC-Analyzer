@@ -1,0 +1,102 @@
+{
+  "ticker": "PLTR",
+  "revenue_concentration": {
+    "llm_count": 3,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "entity": "Government segment",
+        "revenue_pct": 54.0,
+        "revenue_amount": "$2.4 billion",
+        "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+      },
+      {
+        "entity": "Commercial segment",
+        "revenue_pct": 46.0,
+        "revenue_amount": "$2.1 billion",
+        "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+      },
+      {
+        "entity": "Top three customers",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$716.1 million",
+        "context": "Our top three customers together accounted for 16% and 17% of our revenue for the years ended December 31, 2025 and 2024, respectively."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 3,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 74.0,
+        "revenue_amount": "$3.3 billion",
+        "context": "In the year ended December 31, 2025, we generated 74% of our revenue from customers in the United States and the remaining 26% from non-U.S. customers."
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 10.0,
+        "revenue_amount": "$427.4 million",
+        "context": "Revenue from the United Kingdom was $427.4 million, representing 10% of total revenue in 2025."
+      },
+      {
+        "region": "Rest of world",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$728.0 million",
+        "context": "Revenue from the Rest of world was $728.0 million, representing 16% of total revenue in 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 74.18,
+        "revenue_amount": "$3.3B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 9.55,
+        "revenue_amount": "$427M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Rest Of World",
+        "revenue_pct": 16.27,
+        "revenue_amount": "$728M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 0,
+    "xbrl_count": 0,
+    "llm_items": [],
+    "xbrl_items": []
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "third-party cloud hosting services",
+        "amount": "$1.8 billion",
+        "timeframe": "through fiscal 2033",
+        "context": "Noncancelable purchase commitments primarily relate to purchase commitments for third-party cloud hosting services... Totaling $1,758,951 thousand."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "cloud services agreement",
+        "amount": "$1.95 billion",
+        "timeframe": "through September 30, 2033",
+        "context": "Under one of its third-party cloud services agreements, as amended, the Company has committed to spend at least $1.95 billion over ten contract years through September 30, 2033."
+      }
+    ],
+    "xbrl_items": []
+  }
+}

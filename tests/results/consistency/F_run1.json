@@ -1,0 +1,183 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-11",
+    "accession_number": "0000037996-26-000015",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Novelis Inc.",
+        "relationship": "major aluminum supplier",
+        "context": "Novelis is a major aluminum supplier to Ford, and since the initial fire occurred, we have been working closely with Novelis to address the situation and exploring potential alternative sources of aluminum."
+      },
+      {
+        "entity": "SK On Co., Ltd.",
+        "relationship": "joint venture partner and battery supplier",
+        "context": "BlueOval SK, LLC (\u201cBOSK\u201d) \u2014 a 50/50 joint venture among Ford, SK On Co., Ltd. (\u201cSK On\u201d), and SK Battery America, Inc. (\u201cSKBA,\u201d a wholly owned subsidiary of SK On) formed to build and operate an EV battery plant in Tennessee and two EV battery plants in Kentucky to supply batteries to Ford and Ford affiliates."
+      },
+      {
+        "entity": "Ford Otomotiv Sanayi Anonim Sirketi",
+        "relationship": "sole supplier of Transit and Puma for Europe",
+        "context": "Ford Otomotiv Sanayi Anonim Sirketi (\u201cFord Otosan\u201d) \u2014 a joint venture in T\u00fcrkiye among Ford (41%), the Koc Group of T\u00fcrkiye (41%), and public investors (18%) that is the sole supplier to us of the Transit, Transit Custom, and Transit Courier commercial vehicles and the Puma for Europe."
+      },
+      {
+        "entity": "Mazda",
+        "relationship": "joint venture manufacturing partner",
+        "context": "AutoAlliance (Thailand) Co., Ltd. (\u201cAAT\u201d) \u2014 a 50/50 joint venture between Ford and Mazda that owns and operates a manufacturing plant in Rayong, Thailand. AAT produces Ford and Mazda products for domestic and export sales."
+      },
+      {
+        "entity": "Chongqing Changan Automobile Co., Ltd.",
+        "relationship": "joint venture manufacturing partner",
+        "context": "Changan Ford Automobile Corporation, Ltd. (\u201cCAF\u201d) \u2014 a 50/50 joint venture between Ford and Chongqing Changan Automobile Co., Ltd. (\u201cChangan\u201d). CAF operates four assembly plants, an engine plant, and a transmission plant in China."
+      },
+      {
+        "entity": "Jiangling Motors Corporation, Ltd.",
+        "relationship": "joint venture manufacturing partner",
+        "context": "JMC assembles Ford Transit, Ford Ranger, a series of Ford SUVs, Ford engines, and non-Ford vehicles and engines for distribution in China and, for certain products, other export markets."
+      }
+    ],
+    "customers": [],
+    "single_source_dependencies": [
+      {
+        "component": "Transit, Transit Custom, and Transit Courier commercial vehicles and the Puma for Europe",
+        "supplier": "Ford Otomotiv Sanayi Anonim Sirketi",
+        "context": "Ford Otomotiv Sanayi Anonim Sirketi (\u201cFord Otosan\u201d) ... is the sole supplier to us of the Transit, Transit Custom, and Transit Courier commercial vehicles and the Puma for Europe."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "manufacturing and assembly",
+        "context": "We own substantially all of our U.S. manufacturing and assembly facilities. Our facilities are situated in various sections of the country and include assembly plants, engine plants, casting plants, metal stamping plants, transmission plants, and other component plants."
+      },
+      {
+        "location": "China",
+        "activity": "manufacturing and assembly",
+        "context": "CAF operates four assembly plants, an engine plant, and a transmission plant in China where it produces and distributes a variety of Ford and Lincoln brand passenger vehicle models."
+      },
+      {
+        "location": "T\u00fcrkiye",
+        "activity": "manufacturing and assembly",
+        "context": "The joint venture owns three plants, a parts distribution depot, and a research and development center in T\u00fcrkiye."
+      },
+      {
+        "location": "Thailand",
+        "activity": "manufacturing",
+        "context": "AutoAlliance (Thailand) Co., Ltd. (\u201cAAT\u201d) \u2014 a 50/50 joint venture between Ford and Mazda that owns and operates a manufacturing plant in Rayong, Thailand."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "aluminum supply disruption",
+        "context": "In 2025, our production was disrupted by fires at one of our major aluminum suppliers, the effects of which are ongoing. ... we experienced lower production in the fourth quarter of 2025 driven by the Novelis fires."
+      },
+      {
+        "constraint": "underutilization of EV production capacity",
+        "context": "These developments, which may continue to affect the pace of EV adoption, could extend the period of underutilization of EV production capacity across the industry."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "tariff impact",
+        "context": "In 2025, Ford\u2019s gross costs related to tariffs implemented or revised in 2025 was about $3 billion, including the impact of tariff relief, and the net EBIT impact was about $2 billion after offsets."
+      },
+      {
+        "risk": "raw material shortage (rare earth minerals)",
+        "context": "China\u2019s restriction on the export of rare earth minerals, which we and our suppliers utilize for a number of components, has impacted (e.g., rescheduling production, changing operating patterns) and caused disruptions in our production operations."
+      },
+      {
+        "risk": "battery raw material availability",
+        "context": "For the manufacture of our electrified products, we are dependent on the supply of batteries and the raw materials (e.g., lithium, cobalt, and nickel) used by our suppliers to produce those batteries. Some of these resources are limited."
+      }
+    ],
+    "revenue_concentration": [],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 65.5,
+        "revenue_amount": "$122,574 million",
+        "context": "United States 2025 Revenues: $122,574 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "Canada",
+        "revenue_pct": 7.8,
+        "revenue_amount": "$14,548 million",
+        "context": "Canada 2025 Revenues: $14,548 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 6.6,
+        "revenue_amount": "$12,298 million",
+        "context": "United Kingdom 2025 Revenues: $12,298 million. Total Company 2025 Revenues: $187,267 million."
+      },
+      {
+        "region": "Mexico",
+        "revenue_pct": 1.3,
+        "revenue_amount": "$2,463 million",
+        "context": "Mexico 2025 Revenues: $2,463 million. Total Company 2025 Revenues: $187,267 million."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "purchase obligations (raw materials, components, services)",
+        "amount": "$8.8 billion",
+        "timeframe": "through 2030 and thereafter",
+        "context": "As of December 31, 2025, our purchase obligations include $2.3 billion due in 2026, $3.1 billion due in 2027-2028, $2.2 billion due in 2029-2030, and $1.2 billion due thereafter."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "offtake agreements (battery raw materials)",
+        "amount": "$4.7 billion",
+        "timeframe": "through 2035",
+        "context": "As of December 31, 2025, our estimated expenditures for the maximum quantity that we are committed to purchase under these offtake agreements through 2035, subject to certain conditions, total approximately $4.7 billion based on our present forecast."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "regulatory compliance credits",
+        "amount": "$1.6 billion",
+        "timeframe": "current and future model years",
+        "context": "As of December 31, 2025, our outstanding purchase obligations under our compliance credit purchase agreements totaled about $1.6 billion."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "foreign exchange forward contracts",
+        "sensitivity": "10% change = $3.0 billion impact",
+        "hedging": "forward contracts",
+        "context": "The potential change in the fair value from a 10% change in the underlying exchange rates, in U.S. dollar terms, would have been $3.0 billion at December 31, 2025."
+      },
+      {
+        "risk_type": "commodity",
+        "exposure": "base metals, precious metals, energy, plastics, battery raw materials",
+        "sensitivity": "10% change = $192 million impact",
+        "hedging": "financially settled forward contracts",
+        "context": "The potential change in the fair value from a 10% change in the underlying commodity prices would have been $192 million at December 31, 2025."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "Company cash investment portfolios",
+        "sensitivity": "1% increase = $231 million reduction in portfolio value",
+        "hedging": "not disclosed for cash portfolio",
+        "context": "Assuming a hypothetical increase in interest rates of one percentage point, the fair value of our portfolios would be reduced by $231 million, as calculated as of December 31, 2025."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$6,020 million",
+        "pct_of_total": 39.4,
+        "context": "Raw materials, work-in-process, and supplies: $6,020 million at December 31, 2025."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$9,265 million",
+        "pct_of_total": 60.6,
+        "context": "Finished products: $9,265 million at December 31, 2025."
+      }
+    ]
+  }
+}

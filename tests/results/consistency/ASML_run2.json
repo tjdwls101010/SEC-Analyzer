@@ -1,0 +1,182 @@
+{
+  "filing": {
+    "form": "20-F",
+    "filing_date": "2026-02-25",
+    "accession_number": "0001628280-26-011378",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/937966/000162828026011378/asml-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Carl Zeiss SMT GmbH",
+        "relationship": "single supplier of optical columns",
+        "context": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems. Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany."
+      },
+      {
+        "entity": "Mistral AI",
+        "relationship": "strategic partner and AI model provider",
+        "context": "Mistral AI has a high-quality large language model able to support software coding and therefore plays a pivotal role in the development of our systems. We have invested \u20ac1.3 billion in Mistral AI as lead investor and hold an approximately 11% share on a fully diluted basis in the company."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Major Customer 1",
+        "relationship": "accounted for >10% of revenue",
+        "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "optical columns",
+        "supplier": "Carl Zeiss SMT GmbH",
+        "context": "Carl Zeiss SMT GmbH is our single supplier, and we are their single customer, of optical columns for lithography systems."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "Netherlands",
+        "activity": "manufacturing and R&D",
+        "context": "Our headquarters, mainly manufacturing and R&D facilities, are located in Veldhoven, the Netherlands. This campus... includes 285 thousand square meters of office space and 72 thousand square meters of clean room used for manufacturing and R&D."
+      },
+      {
+        "location": "Germany",
+        "activity": "manufacturing of optical columns",
+        "context": "Carl Zeiss SMT GmbH is capable of developing and producing these items only in limited numbers and only through the use of manufacturing and testing facilities in Oberkochen and Wetzlar, Germany."
+      },
+      {
+        "location": "Taiwan",
+        "activity": "manufacturing and local service",
+        "context": "Our facility in Linkou, Taiwan is comprised of a manufacturing area that is approximately 10 thousand square meters... Our facility in Tainan, Taiwan consists of 26 thousand square meters utilized for manufacturing and office space."
+      },
+      {
+        "location": "United States",
+        "activity": "R&D and manufacturing",
+        "context": "We maintain R&D and manufacturing operations in a 89 thousand square meters campus which consists of five buildings in Wilton, Connecticut... our campus in San Diego, California comprises 50 thousand square meters for office, R&D, manufacturing and warehouse purposes."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "supply chain constraints and lead times",
+        "context": "The inputs into our estimates and assumptions consider economic implications including supply chain constraints, inflation and uncertainty in the macroeconomic environment. We are working closely with our customers and suppliers to optimize our output capability and manage the risks."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "export control regulations",
+        "context": "Changes in export controls may have a material impact on our business for example on the sales volume, mix and timing. Effective January 15, 2025, the Netherlands expanded its export control regulations to include an additional group of semiconductor manufacturing equipment."
+      },
+      {
+        "risk": "rare earth element export restrictions",
+        "context": "In 2025, China introduced new rules: it restricted exports of certain rare earth elements, limited technology sharing for processing them and extended these rules to products made abroad if they include any rare earth elements or technology."
+      },
+      {
+        "risk": "reliance on a limited group of suppliers",
+        "context": "Our reliance on a limited group of suppliers involves several risks, including a potential inability to obtain an adequate supply of required components, reduced control over pricing, and the risk of untimely delivery of these components and subassemblies."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Four major customers",
+        "revenue_pct": 61.2,
+        "revenue_amount": "\u20ac20.0 billion",
+        "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+      },
+      {
+        "entity": "Logic segment",
+        "revenue_pct": 73.0,
+        "revenue_amount": "\u20ac23,847.1 million",
+        "context": "In Logic, net sales increased by \u20ac2.9 billion, primarily driven by leading-edge foundry growth in support of strong AI demand."
+      },
+      {
+        "entity": "Memory segment",
+        "revenue_pct": 27.0,
+        "revenue_amount": "\u20ac8,820.2 million",
+        "context": "In Memory, net sales decreased by \u20ac0.2 billion, primarily reflecting a continuation of high Memory demand following strong growth in 2024."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "Taiwan",
+        "revenue_pct": 31.0,
+        "revenue_amount": "\u20ac10,126.9 million",
+        "context": "Taiwan and South Korea recorded the largest absolute geographic sales growth, driven by capacity expansions to support increasing AI-related demand."
+      },
+      {
+        "region": "South Korea",
+        "revenue_pct": 28.0,
+        "revenue_amount": "\u20ac9,146.8 million",
+        "context": "Taiwan and South Korea recorded the largest absolute geographic sales growth, driven by capacity expansions to support increasing AI-related demand."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 23.0,
+        "revenue_amount": "\u20ac7,513.5 million",
+        "context": "Our DUV business in China turned out to be stronger than anticipated, offsetting marginally lower than anticipated non-China DUV business."
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 11.0,
+        "revenue_amount": "\u20ac3,593.4 million",
+        "context": "Total net sales by geographic region: United States \u20ac3,593.4 million."
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 4.0,
+        "revenue_amount": "\u20ac1,306.7 million",
+        "context": "Total net sales by geographic region: EMEA \u20ac1,306.7 million."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Carl Zeiss SMT GmbH",
+        "obligation_type": "R&D funding and financing commitments",
+        "amount": "\u20ac22.5 million",
+        "timeframe": "fiscal 2025",
+        "context": "For 2025, the related R&D funding amounted to \u20ac22.5 million. ASML has committed to finance the capital expenditures of Carl Zeiss SMT GmbH if Carl Zeiss SMT GmbH\u2019s investments required to execute on the lithography business roadmap exceed certain thresholds."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "Purchase obligations",
+        "amount": "\u20ac14,561.4 million",
+        "timeframe": "through 2030 and thereafter",
+        "context": "We have purchase obligations toward suppliers in the ordinary course of business which mainly relate to goods and services for our operations and obligations relating to further expansion and upgrade of our facilities."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "US dollar, Japanese yen, Taiwanese dollar, South Korean won, Chinese yuan",
+        "sensitivity": "10% strengthening of USD = \u20ac11.1M net income impact",
+        "hedging": "Forward foreign exchange contracts",
+        "context": "It is our policy to hedge material transaction exposures, such as forecasted sales and purchase transactions. We hedge these exposures through the use of forward foreign exchange contracts."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "Eurobonds and floating rate debt",
+        "sensitivity": "100 bps increase = \u20ac103.1M net income impact",
+        "hedging": "Interest rate swaps",
+        "context": "We use interest rate swaps to minimize the net interest exposure for the group by aligning the interest terms of the available cash and the interest-bearing debt."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "\u20ac3,478.4 million",
+        "pct_of_total": 31.3,
+        "context": "The increase in gross inventory in 2025, compared to 2024, is mainly due to increasing raw materials to support our growing install base."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "\u20ac5,348.6 million",
+        "pct_of_total": 48.1,
+        "context": "Inventories consist of: Work-in-process \u20ac5,348.6 million."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "\u20ac2,289.4 million",
+        "pct_of_total": 20.6,
+        "context": "Inventories consist of: Finished products \u20ac2,289.4 million."
+      }
+    ]
+  }
+}

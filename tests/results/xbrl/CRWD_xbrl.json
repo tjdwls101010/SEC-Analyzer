@@ -1,0 +1,49 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-03-05",
+    "accession_number": "0001535527-26-000010",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1535527/000153552726000010/crwd-20260131.htm"
+  },
+  "data": {
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 66.85,
+        "revenue_amount": "$3.2B",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 16.26,
+        "revenue_amount": "$783M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 10.3,
+        "revenue_amount": "$496M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 6.59,
+        "revenue_amount": "$317M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$104M",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  },
+  "xbrl_available": true
+}

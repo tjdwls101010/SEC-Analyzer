@@ -1,0 +1,146 @@
+{
+  "ticker": "AAPL",
+  "revenue_concentration": {
+    "llm_count": 2,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "entity": "Direct distribution channels",
+        "revenue_pct": 40.0,
+        "revenue_amount": "null",
+        "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+      },
+      {
+        "entity": "Indirect distribution channels",
+        "revenue_pct": 60.0,
+        "revenue_amount": "null",
+        "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 2,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 36.5,
+        "revenue_amount": "$151,790 million",
+        "context": "U.S. net sales were $151,790 million for 2025."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 15.5,
+        "revenue_amount": "$64,377 million",
+        "context": "China net sales (including Hong Kong and Taiwan) were $64,377 million for 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 36.47,
+        "revenue_amount": "$151.8B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      },
+      {
+        "region": "China",
+        "revenue_pct": 15.47,
+        "revenue_amount": "$64.4B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 48.06,
+        "revenue_amount": "$200.0B",
+        "source": "xbrl",
+        "end_date": "2025-09-27"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 1,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "category": "finished_goods",
+        "amount": "$5,718 million",
+        "pct_of_total": 100.0,
+        "context": "Inventories were $5,718 million as of September 27, 2025."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 8,
+    "llm_items": [
+      {
+        "counterparty": "various outsourcing partners and suppliers",
+        "obligation_type": "manufacturing purchase obligations",
+        "amount": "$56.2 billion",
+        "timeframe": "as of September 27, 2025",
+        "context": "As of September 27, 2025, the Company had manufacturing purchase obligations of $56.2 billion, with $55.4 billion payable within 12 months."
+      },
+      {
+        "counterparty": "various suppliers and licensors",
+        "obligation_type": "unconditional purchase obligations",
+        "amount": "$13.3 billion",
+        "timeframe": "remaining term in excess of one year",
+        "context": "Future payments under unconditional purchase obligations with a remaining term in excess of one year as of September 27, 2025, are as follows... Total $13,308 [million]."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$523M",
+        "timeframe": "total",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$4.8B",
+        "timeframe": "year 1",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$3.7B",
+        "timeframe": "year 2",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$2.0B",
+        "timeframe": "year 3",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.3B",
+        "timeframe": "year 4",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$788M",
+        "timeframe": "year 5",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$773M",
+        "timeframe": "after year 5",
+        "source": "xbrl"
+      },
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$13.3B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  }
+}

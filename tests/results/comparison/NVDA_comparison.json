@@ -1,0 +1,161 @@
+{
+  "ticker": "NVDA",
+  "revenue_concentration": {
+    "llm_count": 2,
+    "xbrl_count": 2,
+    "llm_items": [
+      {
+        "entity": "Direct Customer A",
+        "revenue_pct": 22.0,
+        "revenue_amount": "null",
+        "context": "For fiscal year 2026, sales to one direct customer represented 22% of total revenue... primarily attributable to the Compute & Networking segment."
+      },
+      {
+        "entity": "Direct Customer B",
+        "revenue_pct": 14.0,
+        "revenue_amount": "null",
+        "context": "sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "entity": "Customer One",
+        "revenue_pct": 22.0,
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "entity": "Customer Two",
+        "revenue_pct": 14.0,
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      }
+    ]
+  },
+  "geographic_revenue": {
+    "llm_count": 3,
+    "xbrl_count": 4,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 69.0,
+        "revenue_amount": "$149,617 million",
+        "context": "United States: $149,617 million. Revenue from sales to customers headquartered outside of the United States accounted for 31%... of total revenue for fiscal year 2026."
+      },
+      {
+        "region": "Taiwan",
+        "revenue_pct": 19.6,
+        "revenue_amount": "$42,345 million",
+        "context": "Taiwan: $42,345 million. In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe."
+      },
+      {
+        "region": "China (including Hong Kong)",
+        "revenue_pct": 9.1,
+        "revenue_amount": "$19,677 million",
+        "context": "China (including Hong Kong): $19,677 million."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 69.29,
+        "revenue_amount": "$149.6B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "Taiwan",
+        "revenue_pct": 19.61,
+        "revenue_amount": "$42.3B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "China Including Hong Kong",
+        "revenue_pct": 9.11,
+        "revenue_amount": "$19.7B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 1.99,
+        "revenue_amount": "$4.3B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 3,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$3,807 million",
+        "pct_of_total": 17.8,
+        "context": "Raw materials: $3,807 million. Total inventories: $21,403 million."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$8,822 million",
+        "pct_of_total": 41.2,
+        "context": "Work in process: $8,822 million. Total inventories: $21,403 million."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8,774 million",
+        "pct_of_total": 41.0,
+        "context": "Finished goods: $8,774 million. Total inventories: $21,403 million."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$3.8B",
+        "source": "xbrl",
+        "pct_of_total": 17.79
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$8.8B",
+        "source": "xbrl",
+        "pct_of_total": 41.22
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.8B",
+        "source": "xbrl",
+        "pct_of_total": 40.99
+      }
+    ]
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 1,
+    "llm_items": [
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "manufacturing, supply, and capacity commitments",
+        "amount": "$95.2 billion",
+        "timeframe": "through fiscal 2027",
+        "context": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027."
+      },
+      {
+        "counterparty": "not disclosed",
+        "obligation_type": "multi-year cloud service agreement commitments",
+        "amount": "$27 billion",
+        "timeframe": "through fiscal 2032 and thereafter",
+        "context": "Multi-year cloud service agreement commitments as of January 25, 2026, were $27 billion, for which $7 billion, $6 billion, $5 billion, $5 billion, $2 billion, and $2 billion will be paid in fiscal years 2027, 2028, 2029, 2030, 2031, and 2032 and thereafter, respectively."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$22.7B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "ticker": "JPM",
+  "revenue_concentration": {
+    "llm_count": 3,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "entity": "Consumer & Community Banking",
+        "revenue_pct": 40.97,
+        "revenue_amount": "$76,029 million",
+        "context": "For management reporting purposes, the Firm has three reportable business segments \u2013 Consumer & Community Banking (\u201cCCB\u201d), Commercial & Investment Bank (\u201cCIB\u201d) and Asset & Wealth Management (\u201cAWM\u201d)... CCB total net revenue was $76,029 million."
+      },
+      {
+        "entity": "Commercial & Investment Bank",
+        "revenue_pct": 42.27,
+        "revenue_amount": "$78,454 million",
+        "context": "CIB total net revenue was $78,454 million for the year ended December 31, 2025."
+      },
+      {
+        "entity": "Asset & Wealth Management",
+        "revenue_pct": 12.97,
+        "revenue_amount": "$24,073 million",
+        "context": "AWM total net revenue was $24,073 million for the year ended December 31, 2025."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 5,
+    "llm_items": [
+      {
+        "region": "North America",
+        "revenue_pct": 76.56,
+        "revenue_amount": "$139,689 million",
+        "context": "North America revenue was $139,689 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Europe/Middle East/Africa",
+        "revenue_pct": 13.42,
+        "revenue_amount": "$24,478 million",
+        "context": "Europe/Middle East/Africa revenue was $24,478 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Asia-Pacific",
+        "revenue_pct": 7.71,
+        "revenue_amount": "$14,065 million",
+        "context": "Asia-Pacific revenue was $14,065 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Latin America/Caribbean",
+        "revenue_pct": 2.31,
+        "revenue_amount": "$4,215 million",
+        "context": "Latin America/Caribbean revenue was $4,215 million for the year ended December 31, 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "EMEA",
+        "revenue_pct": 13.42,
+        "revenue_amount": "$24.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 7.71,
+        "revenue_amount": "$14.1B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 2.31,
+        "revenue_amount": "$4.2B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Total International",
+        "revenue_pct": 23.44,
+        "revenue_amount": "$42.8B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "North America",
+        "revenue_pct": 76.56,
+        "revenue_amount": "$139.7B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 0,
+    "xbrl_count": 0,
+    "llm_items": [],
+    "xbrl_items": []
+  },
+  "purchase_obligations": {
+    "llm_count": 2,
+    "xbrl_count": 1,
+    "llm_items": [
+      {
+        "counterparty": "Apple",
+        "obligation_type": "forward purchase commitment",
+        "amount": "$104 billion",
+        "timeframe": "expected closing in approximately 24 months",
+        "context": "The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio, with an expected closing in approximately 24 months (the \u201cApple Card transaction\u201d). At December 31, 2025, includes estimated total credit exposure related to the Apple Card transaction at the time that the transaction is expected to close of approximately $104 billion."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "operating lease commitments",
+        "amount": "$1.9 billion",
+        "timeframe": "commence between 2026 and 2029",
+        "context": "As of December 31, 2025, the Firm had additional future operating lease commitments of $1.9 billion that were signed but had not yet commenced. These operating leases will commence between 2026 and 2029 with lease terms up to 21 years."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.9B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  }
+}

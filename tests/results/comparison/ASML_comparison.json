@@ -1,0 +1,176 @@
+{
+  "ticker": "ASML",
+  "revenue_concentration": {
+    "llm_count": 1,
+    "xbrl_count": 1,
+    "llm_items": [
+      {
+        "entity": "Four major customers",
+        "revenue_pct": 61.2,
+        "revenue_amount": "\u20ac20.0 billion",
+        "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "entity": "Four Customers",
+        "revenue_pct": 61.2,
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 9,
+    "llm_items": [
+      {
+        "region": "Taiwan",
+        "revenue_pct": 31.4,
+        "revenue_amount": "\u20ac10,265.1 million",
+        "context": "Total net sales by geographic region: Taiwan \u20ac10,265.1 million (31.4%) in 2025."
+      },
+      {
+        "region": "South Korea",
+        "revenue_pct": 27.6,
+        "revenue_amount": "\u20ac9,017.6 million",
+        "context": "Total net sales by geographic region: South Korea \u20ac9,017.6 million (27.6%) in 2025."
+      },
+      {
+        "region": "China",
+        "revenue_pct": 22.8,
+        "revenue_amount": "\u20ac7,452.4 million",
+        "context": "Total net sales by geographic region: China \u20ac7,452.4 million (22.8%) in 2025."
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 10.4,
+        "revenue_amount": "\u20ac3,388.7 million",
+        "context": "Total net sales by geographic region: United States \u20ac3,388.7 million (10.4%) in 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "Japan",
+        "revenue_pct": 4.35,
+        "revenue_amount": "$1.4B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "South Korea",
+        "revenue_pct": 24.95,
+        "revenue_amount": "$8.2B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "SG",
+        "revenue_pct": 1.86,
+        "revenue_amount": "$608M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Taiwan",
+        "revenue_pct": 25.5,
+        "revenue_amount": "$8.3B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "China",
+        "revenue_pct": 29.11,
+        "revenue_amount": "$9.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Rest Of Asia",
+        "revenue_pct": 0.01,
+        "revenue_amount": "$3M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "NL",
+        "revenue_pct": 0.01,
+        "revenue_amount": "$5M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Rest Of Europe And Middle East",
+        "revenue_pct": 1.6,
+        "revenue_amount": "$524M",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United States",
+        "revenue_pct": 12.5,
+        "revenue_amount": "$4.1B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 3,
+    "xbrl_count": 3,
+    "llm_items": [
+      {
+        "category": "raw_materials",
+        "amount": "\u20ac3,151.7 million",
+        "pct_of_total": 15.1,
+        "context": "Raw materials increased to \u20ac3,151.7 million in 2025 from \u20ac2,593.4 million in 2024."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "\u20ac11,707.0 million",
+        "pct_of_total": 56.1,
+        "context": "Work-in-progress was \u20ac11,707.0 million as of December 31, 2025."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "\u20ac6,014.2 million",
+        "pct_of_total": 28.8,
+        "context": "Finished products were \u20ac6,014.2 million as of December 31, 2025."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "category": "raw_materials",
+        "amount": "$4.9B",
+        "source": "xbrl",
+        "pct_of_total": 41.61
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$4.9B",
+        "source": "xbrl",
+        "pct_of_total": 41.28
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$2.0B",
+        "source": "xbrl",
+        "pct_of_total": 17.11
+      }
+    ]
+  },
+  "purchase_obligations": {
+    "llm_count": 1,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "Purchase obligations",
+        "amount": "\u20ac14,561.4 million",
+        "timeframe": "through 2030 and thereafter",
+        "context": "We have purchase obligations toward suppliers in the ordinary course of business which mainly relate to goods and services for our operations and obligations relating to further expansion and upgrade of our facilities."
+      }
+    ],
+    "xbrl_items": []
+  }
+}

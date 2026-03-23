@@ -1,0 +1,144 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001628280-26-008131",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "PricewaterhouseCoopers LLP",
+        "relationship": "independent registered public accounting firm",
+        "context": "The Consolidated Financial Statements, together with the Notes thereto and the report thereon dated February 13, 2026, of PricewaterhouseCoopers LLP, the Firm\u2019s independent registered public accounting firm (PCAOB ID 238), appear on pages 162\u2013314."
+      },
+      {
+        "entity": "Deutsche Bank Trust Company Americas",
+        "relationship": "Trustee for indentures",
+        "context": "Indenture, dated as of October 21, 2010, between JPMorgan Chase & Co. and Deutsche Bank Trust Company Americas, as Trustee."
+      },
+      {
+        "entity": "U.S. Bank Trust National Association",
+        "relationship": "Trustee for subordinated indenture",
+        "context": "Subordinated Indenture, dated as of March 14, 2014, between JPMorgan Chase & Co. and U.S. Bank Trust National Association, as Trustee."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Apple",
+        "relationship": "Strategic partner for credit card portfolio (Apple Card)",
+        "context": "On January 7, 2026, JPMorganChase announced that Chase will become the new issuer of Apple Card. The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio."
+      },
+      {
+        "entity": "U.S. government agencies",
+        "relationship": "Purchaser of mortgage loans",
+        "context": "Originated mortgage loans are retained in the residential real estate portfolio, securitized or sold to U.S. government agencies and U.S. government-sponsored enterprises."
+      },
+      {
+        "entity": "Ginnie Mae",
+        "relationship": "Purchaser of mortgage loans for securitization",
+        "context": "The Firm also sells loans into securitization transactions pursuant to Ginnie Mae guidelines; these loans are typically insured or guaranteed by another U.S. government agency."
+      }
+    ],
+    "single_source_dependencies": [],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "Principal operations and workforce concentration",
+        "context": "JPMorganChase\u2019s employees are located in 66 countries, with 58% of the Firm\u2019s employees located in the U.S."
+      },
+      {
+        "location": "California",
+        "activity": "Residential real estate loan concentration",
+        "context": "At December 31, 2025, $213.1 billion, or 70%, of the total retained residential real estate loan portfolio, was concentrated in California, New York, Florida, Texas and Massachusetts."
+      },
+      {
+        "location": "India",
+        "activity": "Significant international facility presence",
+        "context": "The Firm owned or leased facilities in the following locations at December 31, 2025... India 6.6 [million square feet]."
+      }
+    ],
+    "capacity_constraints": [],
+    "supply_chain_risks": [
+      {
+        "risk": "Third-party service provider disruption",
+        "context": "JPMorganChase also depends on its ability to access and use the operational systems of third parties, including: custodians; vendors, including providers of security, technology and data and cloud computing services."
+      },
+      {
+        "risk": "Geopolitical hostilities and infrastructure disruption",
+        "context": "Conflicts and hostilities between countries... could result in: sustained disruption to or destruction of infrastructure, including energy and power facilities and undersea cables; disruption of global trade, including retaliatory countermeasures."
+      },
+      {
+        "risk": "Cybersecurity supply-chain compromises",
+        "context": "Third party incidents such as system breakdowns or failures, misconduct by the employees of such parties, or cyber attacks, including ransomware and supply-chain compromises, could have a material adverse effect on the Firm."
+      }
+    ],
+    "revenue_concentration": [],
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 76.5,
+        "revenue_amount": "$139,689 million",
+        "context": "North America revenue was $139,689 million out of a total $182,447 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Europe/Middle East/Africa",
+        "revenue_pct": 13.4,
+        "revenue_amount": "$24,478 million",
+        "context": "Europe/Middle East/Africa revenue was $24,478 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Asia-Pacific",
+        "revenue_pct": 7.7,
+        "revenue_amount": "$14,065 million",
+        "context": "Asia-Pacific revenue was $14,065 million for the year ended December 31, 2025."
+      },
+      {
+        "region": "Latin America/Caribbean",
+        "revenue_pct": 2.3,
+        "revenue_amount": "$4,215 million",
+        "context": "Latin America/Caribbean revenue was $4,215 million for the year ended December 31, 2025."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Apple",
+        "obligation_type": "forward purchase commitment",
+        "amount": "$104 billion",
+        "timeframe": "expected closing in approximately 24 months",
+        "context": "The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio, with an expected closing in approximately 24 months... At December 31, 2025, includes estimated total credit exposure related to the Apple Card transaction... of approximately $104 billion."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "operating lease commitments",
+        "amount": "$1.9 billion",
+        "timeframe": "commence between 2026 and 2029",
+        "context": "As of December 31, 2025, the Firm had additional future operating lease commitments of $1.9 billion that were signed but had not yet commenced."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "structural interest rate risk",
+        "sensitivity": "+100 bps shift = $2.1 billion earnings impact",
+        "hedging": "investment securities portfolio and interest rate derivatives",
+        "context": "The Firm manages structural interest rate risk generally through its investment securities portfolio and interest rate derivatives. A +100 bps parallel shift in rates results in a $2.1 billion sensitivity."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "Non-U.S. dollar FX risk",
+        "sensitivity": "10% depreciation of currency = $19 million impact on OCI",
+        "hedging": "foreign exchange derivatives",
+        "context": "The Firm has structural non-U.S. dollar FX exposures arising from capital investments, forecasted expense and revenue... Treasury and CIO may hedge certain of these risks using derivatives."
+      },
+      {
+        "risk_type": "commodity",
+        "exposure": "physical commodities inventories",
+        "sensitivity": "Not quantitatively disclosed for total portfolio",
+        "hedging": "commodity derivatives",
+        "context": "Commodities derivatives are used to manage the price risk of certain commodities inventories. Gains or losses on these derivative instruments are expected to substantially offset the depreciation or appreciation of the related inventory."
+      }
+    ],
+    "inventory_composition": []
+  }
+}

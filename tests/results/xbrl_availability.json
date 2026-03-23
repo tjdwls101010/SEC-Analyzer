@@ -1,0 +1,72 @@
+{
+  "NVDA": {
+    "xbrl_available": true,
+    "revenue_concentration": true,
+    "geographic_revenue": true,
+    "inventory_composition": true,
+    "purchase_obligations": true
+  },
+  "AAPL": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": false,
+    "purchase_obligations": true
+  },
+  "F": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": true,
+    "purchase_obligations": true
+  },
+  "CAT": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": true,
+    "purchase_obligations": false
+  },
+  "TSM": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": false,
+    "inventory_composition": false,
+    "purchase_obligations": false
+  },
+  "ASML": {
+    "xbrl_available": true,
+    "revenue_concentration": true,
+    "geographic_revenue": true,
+    "inventory_composition": true,
+    "purchase_obligations": false
+  },
+  "CRWD": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": false,
+    "purchase_obligations": true
+  },
+  "JPM": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": false,
+    "purchase_obligations": true
+  },
+  "PLTR": {
+    "xbrl_available": true,
+    "revenue_concentration": false,
+    "geographic_revenue": true,
+    "inventory_composition": false,
+    "purchase_obligations": false
+  },
+  "SMCI": {
+    "xbrl_available": true,
+    "revenue_concentration": true,
+    "geographic_revenue": true,
+    "inventory_composition": true,
+    "purchase_obligations": false
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0000018230-26-000008",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/18230/000001823026000008/cat-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Perkins Engines Company Limited",
+        "relationship": "subsidiary supplier",
+        "context": "We also sell some of the reciprocating engines manufactured by our subsidiary Perkins Engines Company Limited through its worldwide network of 86 distributors covering 183 countries."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Nippon Caterpillar Division",
+        "relationship": "wholly owned dealer in Japan",
+        "context": "While the large majority of our worldwide dealers are independently owned and operated, we own and operate a dealership in Japan that covers approximately 80% of the Japanese market: Nippon Caterpillar Division."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "semiconductors",
+        "supplier": "unnamed semiconductor suppliers",
+        "context": "Production challenges at suppliers (including suppliers of semiconductors), a disruption in deliveries to or from suppliers or decreased availability of raw materials or commodities could have an adverse effect on our ability to meet our commitments to customers or increase our operating costs."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "manufacturing and distribution",
+        "context": "We distribute our machines principally through a worldwide organization of dealers (dealer network), 41 located in the United States and 109 located outside the United States, serving 190 countries."
+      },
+      {
+        "location": "China",
+        "activity": "manufacturing and technical centers",
+        "context": "We operate Technical Centers located in Aurora and Mossville, Illinois; Wuxi, China; and Chennai, India. Manufacturing of products... is conducted primarily at the locations listed below... China: Suzhou, Wujiang, Xuzhou, Qingzhou."
+      },
+      {
+        "location": "Brazil",
+        "activity": "manufacturing and remanufacturing",
+        "context": "Manufacturing of products... is conducted primarily at the locations listed below... Brazil: Campo Largo, Piracicaba. Remanufacturing of our products is conducted primarily at the facilities in... Piracicaba, Brazil."
+      }
+    ],
+    "capacity_constraints": [
+      {
+        "constraint": "parts and components constraints",
+        "context": "However, in some cases, increases in demand or supply chain disruptions have led to parts and components constraints across some products."
+      },
+      {
+        "constraint": "logistics constraints",
+        "context": "Material and component shortages, logistics constraints and labor inefficiencies could limit our ability to meet customer demand, which could have a material adverse effect on our business, results of operations and/or financial condition."
+      }
+    ],
+    "supply_chain_risks": [
+      {
+        "risk": "tariff impact",
+        "context": "Based on the incremental tariffs announced in 2025 and in place by January 29, 2026, we expect the impact from tariffs to be around $2.6 billion in 2026, which is $800 million higher than incurred in 2025."
+      },
+      {
+        "risk": "raw material and component shortages",
+        "context": "Production challenges at suppliers (including suppliers of semiconductors), a disruption in deliveries to or from suppliers or decreased availability of raw materials or commodities could have an adverse effect on our ability to meet our commitments to customers."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Power & Energy",
+        "revenue_pct": 47.6,
+        "revenue_amount": "$32.201 billion",
+        "context": "Power & Energy\u2019s total sales were $32.201 billion in 2025, an increase of $3.347 billion, or 12 percent, compared with $28.854 billion in 2024."
+      },
+      {
+        "entity": "Construction Industries",
+        "revenue_pct": 37.1,
+        "revenue_amount": "$25.060 billion",
+        "context": "Construction Industries\u2019 total sales were $25.060 billion in 2025, a decrease of $395 million, or 2 percent, compared with $25.455 billion in 2024."
+      },
+      {
+        "entity": "Resource Industries",
+        "revenue_pct": 18.5,
+        "revenue_amount": "$12.474 billion",
+        "context": "Resource Industries\u2019 total sales were $12.474 billion in 2025, an increase of $3 million, or about flat, compared with $12.471 billion in 2024."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 54.2,
+        "revenue_amount": "$36.609 billion",
+        "context": "North America sales increased 6 percent due to higher sales volume, partially offset by unfavorable price realization."
+      },
+      {
+        "region": "EAME",
+        "revenue_pct": 18.9,
+        "revenue_amount": "$12.793 billion",
+        "context": "EAME sales increased 4 percent mainly due to higher sales volume and favorable currency impacts related to the euro, partially offset by unfavorable price realization."
+      },
+      {
+        "region": "Asia/Pacific",
+        "revenue_pct": 16.6,
+        "revenue_amount": "$11.199 billion",
+        "context": "Asia/Pacific sales decreased 2 percent primarily due to unfavorable currency impacts related to the Australian dollar, and lower sales volume."
+      },
+      {
+        "region": "Latin America",
+        "revenue_pct": 10.3,
+        "revenue_amount": "$6.988 billion",
+        "context": "Sales increased 4 percent in Latin America primarily due to higher sales volume, partially offset by unfavorable currency impacts related to the Brazilian real."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "unnamed key suppliers",
+        "obligation_type": "minimum purchase quantities",
+        "amount": "$2.399 billion",
+        "timeframe": "long-term",
+        "context": "We also have long-term contractual obligations primarily for... long-term commitments entered into with key suppliers for minimum purchase quantities. These obligations total $2.399 billion, with $695 million due in the next 12 months."
+      },
+      {
+        "counterparty": "unnamed suppliers",
+        "obligation_type": "material and services on order",
+        "amount": "$9.633 billion",
+        "timeframe": "short-term",
+        "context": "In addition, we have contractual obligations for material and services on order at December 31, 2025, but not yet invoiced or delivered, of $9.633 billion."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "fx",
+        "exposure": "Australian dollar, Chinese yuan, Euro, Indian rupee and Mexican peso",
+        "sensitivity": "10% weakening of USD = $135 million adverse impact",
+        "hedging": "foreign currency forward and option contracts",
+        "context": "Based on the anticipated and firmly committed cash inflow and outflow for our MP&E operations for the next 12 months... a hypothetical 10 percent weakening of the U.S. dollar relative to all other currencies would adversely affect our expected 2026 cash flow for our MP&E operations by approximately $135 million."
+      },
+      {
+        "risk_type": "commodity",
+        "exposure": "steel, base and precious metals, natural gas, diesel fuel",
+        "sensitivity": "not quantified",
+        "hedging": "commodity forward and option contracts",
+        "context": "We are a significant user of steel and many other commodities required for the manufacture of our products. Increases in the prices of such commodities would increase our costs."
+      },
+      {
+        "risk_type": "interest_rate",
+        "exposure": "benchmark interest rates (SOFR)",
+        "sensitivity": "100 basis point move = minimal impact",
+        "hedging": "interest rate derivative instruments (fixed-to-floating, floating-to-fixed)",
+        "context": "A hypothetical 100 basis point adverse move in interest rates along the entire interest rate yield curve would have a minimal impact to the 2026 pre-tax earnings of MP&E."
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$7.434 billion",
+        "pct_of_total": 41.0,
+        "context": "Raw materials inventory was $7.434 billion as of December 31, 2025."
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$1.598 billion",
+        "pct_of_total": 8.8,
+        "context": "Work-in-process inventory was $1.598 billion as of December 31, 2025."
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.725 billion",
+        "pct_of_total": 48.1,
+        "context": "Finished goods inventory was $8.725 billion as of December 31, 2025."
+      }
+    ]
+  }
+}

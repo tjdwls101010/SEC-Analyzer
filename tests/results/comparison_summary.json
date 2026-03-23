@@ -1,0 +1,1417 @@
+{
+  "AAPL": {
+    "ticker": "AAPL",
+    "revenue_concentration": {
+      "llm_count": 2,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Direct distribution channels",
+          "revenue_pct": 40.0,
+          "revenue_amount": "null",
+          "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+        },
+        {
+          "entity": "Indirect distribution channels",
+          "revenue_pct": 60.0,
+          "revenue_amount": "null",
+          "context": "During 2025, the Company\u2019s net sales through its direct and indirect distribution channels accounted for 40% and 60%, respectively, of total net sales."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 2,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 36.5,
+          "revenue_amount": "$151,790 million",
+          "context": "U.S. net sales were $151,790 million for 2025."
+        },
+        {
+          "region": "China",
+          "revenue_pct": 15.5,
+          "revenue_amount": "$64,377 million",
+          "context": "China net sales (including Hong Kong and Taiwan) were $64,377 million for 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 36.47,
+          "revenue_amount": "$151.8B",
+          "source": "xbrl",
+          "end_date": "2025-09-27"
+        },
+        {
+          "region": "China",
+          "revenue_pct": 15.47,
+          "revenue_amount": "$64.4B",
+          "source": "xbrl",
+          "end_date": "2025-09-27"
+        },
+        {
+          "region": "Other Countries",
+          "revenue_pct": 48.06,
+          "revenue_amount": "$200.0B",
+          "source": "xbrl",
+          "end_date": "2025-09-27"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 1,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "category": "finished_goods",
+          "amount": "$5,718 million",
+          "pct_of_total": 100.0,
+          "context": "Inventories were $5,718 million as of September 27, 2025."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 8,
+      "llm_items": [
+        {
+          "counterparty": "various outsourcing partners and suppliers",
+          "obligation_type": "manufacturing purchase obligations",
+          "amount": "$56.2 billion",
+          "timeframe": "as of September 27, 2025",
+          "context": "As of September 27, 2025, the Company had manufacturing purchase obligations of $56.2 billion, with $55.4 billion payable within 12 months."
+        },
+        {
+          "counterparty": "various suppliers and licensors",
+          "obligation_type": "unconditional purchase obligations",
+          "amount": "$13.3 billion",
+          "timeframe": "remaining term in excess of one year",
+          "context": "Future payments under unconditional purchase obligations with a remaining term in excess of one year as of September 27, 2025, are as follows... Total $13,308 [million]."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$523M",
+          "timeframe": "total",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$4.8B",
+          "timeframe": "year 1",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$3.7B",
+          "timeframe": "year 2",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$2.0B",
+          "timeframe": "year 3",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$1.3B",
+          "timeframe": "year 4",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$788M",
+          "timeframe": "year 5",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$773M",
+          "timeframe": "after year 5",
+          "source": "xbrl"
+        },
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$13.3B",
+          "timeframe": "total",
+          "source": "xbrl"
+        }
+      ]
+    }
+  },
+  "NVDA": {
+    "ticker": "NVDA",
+    "revenue_concentration": {
+      "llm_count": 2,
+      "xbrl_count": 2,
+      "llm_items": [
+        {
+          "entity": "Direct Customer A",
+          "revenue_pct": 22.0,
+          "revenue_amount": "null",
+          "context": "For fiscal year 2026, sales to one direct customer represented 22% of total revenue... primarily attributable to the Compute & Networking segment."
+        },
+        {
+          "entity": "Direct Customer B",
+          "revenue_pct": 14.0,
+          "revenue_amount": "null",
+          "context": "sales to another direct customer represented 14% of total revenue, all of which were primarily attributable to the Compute & Networking segment."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "entity": "Customer One",
+          "revenue_pct": 22.0,
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        },
+        {
+          "entity": "Customer Two",
+          "revenue_pct": 14.0,
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        }
+      ]
+    },
+    "geographic_revenue": {
+      "llm_count": 3,
+      "xbrl_count": 4,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 69.0,
+          "revenue_amount": "$149,617 million",
+          "context": "United States: $149,617 million. Revenue from sales to customers headquartered outside of the United States accounted for 31%... of total revenue for fiscal year 2026."
+        },
+        {
+          "region": "Taiwan",
+          "revenue_pct": 19.6,
+          "revenue_amount": "$42,345 million",
+          "context": "Taiwan: $42,345 million. In fiscal year 2026, we estimate 76% of Data Center revenue from Taiwan-headquartered customers was attributed to end customers based in the United States and Europe."
+        },
+        {
+          "region": "China (including Hong Kong)",
+          "revenue_pct": 9.1,
+          "revenue_amount": "$19,677 million",
+          "context": "China (including Hong Kong): $19,677 million."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 69.29,
+          "revenue_amount": "$149.6B",
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        },
+        {
+          "region": "Taiwan",
+          "revenue_pct": 19.61,
+          "revenue_amount": "$42.3B",
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        },
+        {
+          "region": "China Including Hong Kong",
+          "revenue_pct": 9.11,
+          "revenue_amount": "$19.7B",
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        },
+        {
+          "region": "Other Countries",
+          "revenue_pct": 1.99,
+          "revenue_amount": "$4.3B",
+          "source": "xbrl",
+          "end_date": "2026-01-25"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 3,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$3,807 million",
+          "pct_of_total": 17.8,
+          "context": "Raw materials: $3,807 million. Total inventories: $21,403 million."
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$8,822 million",
+          "pct_of_total": 41.2,
+          "context": "Work in process: $8,822 million. Total inventories: $21,403 million."
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$8,774 million",
+          "pct_of_total": 41.0,
+          "context": "Finished goods: $8,774 million. Total inventories: $21,403 million."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$3.8B",
+          "source": "xbrl",
+          "pct_of_total": 17.79
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$8.8B",
+          "source": "xbrl",
+          "pct_of_total": 41.22
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$8.8B",
+          "source": "xbrl",
+          "pct_of_total": 40.99
+        }
+      ]
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 1,
+      "llm_items": [
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "manufacturing, supply, and capacity commitments",
+          "amount": "$95.2 billion",
+          "timeframe": "through fiscal 2027",
+          "context": "As of January 25, 2026, these commitments were $95.2 billion, of which substantially all will be paid through fiscal year 2027."
+        },
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "multi-year cloud service agreement commitments",
+          "amount": "$27 billion",
+          "timeframe": "through fiscal 2032 and thereafter",
+          "context": "Multi-year cloud service agreement commitments as of January 25, 2026, were $27 billion, for which $7 billion, $6 billion, $5 billion, $5 billion, $2 billion, and $2 billion will be paid in fiscal years 2027, 2028, 2029, 2030, 2031, and 2032 and thereafter, respectively."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$22.7B",
+          "timeframe": "total",
+          "source": "xbrl"
+        }
+      ]
+    }
+  },
+  "F": {
+    "ticker": "F",
+    "revenue_concentration": {
+      "llm_count": 0,
+      "xbrl_count": 0,
+      "llm_items": [],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 5,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 65.5,
+          "revenue_amount": "$122,574 million",
+          "context": "United States 2025 Revenues: $122,574 million. Total Company 2025 Revenues: $187,267 million."
+        },
+        {
+          "region": "Canada",
+          "revenue_pct": 7.8,
+          "revenue_amount": "$14,548 million",
+          "context": "Canada 2025 Revenues: $14,548 million. Total Company 2025 Revenues: $187,267 million."
+        },
+        {
+          "region": "United Kingdom",
+          "revenue_pct": 6.6,
+          "revenue_amount": "$12,298 million",
+          "context": "United Kingdom 2025 Revenues: $12,298 million. Total Company 2025 Revenues: $187,267 million."
+        },
+        {
+          "region": "Mexico",
+          "revenue_pct": 1.3,
+          "revenue_amount": "$2,463 million",
+          "context": "Mexico 2025 Revenues: $2,463 million. Total Company 2025 Revenues: $187,267 million."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 65.45,
+          "revenue_amount": "$122.6B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "CA",
+          "revenue_pct": 7.77,
+          "revenue_amount": "$14.5B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "United Kingdom",
+          "revenue_pct": 6.57,
+          "revenue_amount": "$12.3B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "MX",
+          "revenue_pct": 1.32,
+          "revenue_amount": "$2.5B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Other Geographical",
+          "revenue_pct": 18.89,
+          "revenue_amount": "$35.4B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 2,
+      "xbrl_count": 2,
+      "llm_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$6,020 million",
+          "pct_of_total": 39.4,
+          "context": "Raw materials, work-in-process, and supplies: $6,020 million at December 31, 2025."
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$9,265 million",
+          "pct_of_total": 60.6,
+          "context": "Finished products: $9,265 million at December 31, 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "category": "work_in_progress",
+          "amount": "$5.4B",
+          "source": "xbrl",
+          "pct_of_total": 36.08
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$9.6B",
+          "source": "xbrl",
+          "pct_of_total": 63.92
+        }
+      ]
+    },
+    "purchase_obligations": {
+      "llm_count": 3,
+      "xbrl_count": 1,
+      "llm_items": [
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "purchase obligations",
+          "amount": "$8.8 billion",
+          "timeframe": "through 2030 and thereafter",
+          "context": "As of December 31, 2025, our purchase obligations include $2.3 billion due in 2026, $3.1 billion due in 2027-2028, $2.2 billion due in 2029-2030, and $1.2 billion due thereafter."
+        },
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "offtake agreements",
+          "amount": "$4.7 billion",
+          "timeframe": "through 2035",
+          "context": "As of December 31, 2025, our estimated expenditures for the maximum quantity that we are committed to purchase under these offtake agreements through 2035, subject to certain conditions, total approximately $4.7 billion based on our present forecast."
+        },
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "regulatory compliance credits",
+          "amount": "$1.6 billion",
+          "timeframe": "current and future model years",
+          "context": "As of December 31, 2025, our outstanding purchase obligations under our compliance credit purchase agreements totaled about $1.6 billion."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$1.1B",
+          "timeframe": "total",
+          "source": "xbrl"
+        }
+      ]
+    }
+  },
+  "CAT": {
+    "ticker": "CAT",
+    "revenue_concentration": {
+      "llm_count": 3,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Power & Energy",
+          "revenue_pct": 47.6,
+          "revenue_amount": "$32.201 billion",
+          "context": "Power & Energy\u2019s total sales were $32.201 billion in 2025, an increase of $3.347 billion, or 12 percent, compared with $28.854 billion in 2024."
+        },
+        {
+          "entity": "Construction Industries",
+          "revenue_pct": 37.1,
+          "revenue_amount": "$25.060 billion",
+          "context": "Construction Industries\u2019 total sales were $25.060 billion in 2025, a decrease of $395 million, or 2 percent, compared with $25.455 billion in 2024."
+        },
+        {
+          "entity": "Resource Industries",
+          "revenue_pct": 18.5,
+          "revenue_amount": "$12.474 billion",
+          "context": "Resource Industries\u2019 total sales were $12.474 billion in 2025, an increase of $3 million, or about flat, compared with $12.471 billion in 2024."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 6,
+      "llm_items": [
+        {
+          "region": "North America",
+          "revenue_pct": 54.2,
+          "revenue_amount": "$36.609 billion",
+          "context": "North America sales increased 6 percent due to higher sales volume... Consolidated Sales and Revenues [for North America] $36,609 [million]."
+        },
+        {
+          "region": "EAME",
+          "revenue_pct": 18.9,
+          "revenue_amount": "$12.793 billion",
+          "context": "EAME sales increased 4 percent mainly due to higher sales volume... Consolidated Sales and Revenues [for EAME] $12,793 [million]."
+        },
+        {
+          "region": "Asia/Pacific",
+          "revenue_pct": 16.6,
+          "revenue_amount": "$11.199 billion",
+          "context": "Asia/Pacific sales decreased 2 percent primarily due to unfavorable currency impacts... Consolidated Sales and Revenues [for Asia/Pacific] $11,199 [million]."
+        },
+        {
+          "region": "Latin America",
+          "revenue_pct": 10.3,
+          "revenue_amount": "$6.988 billion",
+          "context": "Sales increased 4 percent in Latin America primarily due to higher sales volume... Consolidated Sales and Revenues [for Latin America] $6,988 [million]."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "North America",
+          "revenue_pct": 19.02,
+          "revenue_amount": "$14.1B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Latin America",
+          "revenue_pct": 3.19,
+          "revenue_amount": "$2.4B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "EMEA",
+          "revenue_pct": 6.21,
+          "revenue_amount": "$4.6B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Asia Pacific",
+          "revenue_pct": 5.12,
+          "revenue_amount": "$3.8B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "United States",
+          "revenue_pct": 44.46,
+          "revenue_amount": "$32.9B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Non Us",
+          "revenue_pct": 46.93,
+          "revenue_amount": "$34.7B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 3,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$7.434 billion",
+          "pct_of_total": 41.0,
+          "context": "Raw materials [at December 31, 2025]: $7,434 million."
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$1.598 billion",
+          "pct_of_total": 8.8,
+          "context": "Work-in-process [at December 31, 2025]: $1,598 million."
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$8.725 billion",
+          "pct_of_total": 48.1,
+          "context": "Finished goods [at December 31, 2025]: $8,725 million."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$7.4B",
+          "source": "xbrl",
+          "pct_of_total": 40.99
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$1.6B",
+          "source": "xbrl",
+          "pct_of_total": 8.81
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$8.7B",
+          "source": "xbrl",
+          "pct_of_total": 48.11
+        }
+      ]
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "counterparty": "unnamed key suppliers",
+          "obligation_type": "minimum purchase quantities",
+          "amount": "$2.399 billion",
+          "timeframe": "long-term",
+          "context": "We also have long-term contractual obligations primarily for... long-term commitments entered into with key suppliers for minimum purchase quantities. These obligations total $2.399 billion, with $695 million due in the next 12 months."
+        },
+        {
+          "counterparty": "unnamed suppliers",
+          "obligation_type": "material and services on order",
+          "amount": "$9.633 billion",
+          "timeframe": "short-term",
+          "context": "In addition, we have contractual obligations for material and services on order at December 31, 2025, but not yet invoiced or delivered, of $9.633 billion."
+        }
+      ],
+      "xbrl_items": []
+    }
+  },
+  "CRWD": {
+    "ticker": "CRWD",
+    "revenue_concentration": {
+      "llm_count": 1,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Channel partners or direct customers",
+          "revenue_pct": null,
+          "revenue_amount": "None > 10%",
+          "context": "There were no channel partners or direct customers who represented 10% or more of the Company\u2019s total revenue during the fiscal years ended January 31, 2026, January 31, 2025, and January 31, 2024."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 4,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 67.0,
+          "revenue_amount": "$3,216.7 million",
+          "context": "United States revenue for fiscal 2026 was $3,216,654 thousand, representing 67% of total revenue."
+        },
+        {
+          "region": "Europe, Middle East, and Africa",
+          "revenue_pct": 16.0,
+          "revenue_amount": "$782.7 million",
+          "context": "Europe, Middle East, and Africa revenue for fiscal 2026 was $782,666 thousand, representing 16% of total revenue."
+        },
+        {
+          "region": "Asia Pacific",
+          "revenue_pct": 10.0,
+          "revenue_amount": "$495.7 million",
+          "context": "Asia Pacific revenue for fiscal 2026 was $495,701 thousand, representing 10% of total revenue."
+        },
+        {
+          "region": "Other",
+          "revenue_pct": 7.0,
+          "revenue_amount": "$317.0 million",
+          "context": "Other regions revenue for fiscal 2026 was $316,984 thousand, representing 7% of total revenue."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 66.85,
+          "revenue_amount": "$3.2B",
+          "source": "xbrl",
+          "end_date": "2026-01-31"
+        },
+        {
+          "region": "EMEA",
+          "revenue_pct": 16.26,
+          "revenue_amount": "$783M",
+          "source": "xbrl",
+          "end_date": "2026-01-31"
+        },
+        {
+          "region": "Asia Pacific",
+          "revenue_pct": 10.3,
+          "revenue_amount": "$496M",
+          "source": "xbrl",
+          "end_date": "2026-01-31"
+        },
+        {
+          "region": "Other Countries",
+          "revenue_pct": 6.59,
+          "revenue_amount": "$317M",
+          "source": "xbrl",
+          "end_date": "2026-01-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 0,
+      "xbrl_count": 0,
+      "llm_items": [],
+      "xbrl_items": []
+    },
+    "purchase_obligations": {
+      "llm_count": 1,
+      "xbrl_count": 1,
+      "llm_items": [
+        {
+          "counterparty": "Various",
+          "obligation_type": "non-cancelable purchase commitments",
+          "amount": "$2.8 billion",
+          "timeframe": "remaining terms in excess of 12 months",
+          "context": "We have non-cancelable purchase commitments with various parties to purchase products and services entered in the normal course of business totaling $2.8 billion as of January 31, 2026, with remaining terms in excess of 12 months."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$104M",
+          "timeframe": "total",
+          "source": "xbrl"
+        }
+      ]
+    }
+  },
+  "TSM": {
+    "ticker": "TSM",
+    "revenue_concentration": {
+      "llm_count": 3,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Customer A",
+          "revenue_pct": 22.0,
+          "revenue_amount": "NT$624,345.5 million",
+          "context": "Customer A accounted for 22% of net revenue in 2024."
+        },
+        {
+          "entity": "Customer B",
+          "revenue_pct": 12.0,
+          "revenue_amount": "NT$352,271.2 million",
+          "context": "Customer B accounted for 12% of net revenue in 2024."
+        },
+        {
+          "entity": "Ten largest customers",
+          "revenue_pct": 76.0,
+          "revenue_amount": "null",
+          "context": "While we generate revenue from hundreds of customers worldwide, our ten largest customers in 2022, 2023 and 2024 accounted for approximately, 68%, 70% and 76% of our net revenue in the respective year."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 5,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "region": "North America",
+          "revenue_pct": 70.0,
+          "revenue_amount": "NT$2,031,326 million",
+          "context": "North America accounted for 70% of net revenue in 2024."
+        },
+        {
+          "region": "China",
+          "revenue_pct": 11.0,
+          "revenue_amount": "NT$331,673 million",
+          "context": "China accounted for 11% of net revenue in 2024."
+        },
+        {
+          "region": "Asia Pacific",
+          "revenue_pct": 10.0,
+          "revenue_amount": "NT$284,308 million",
+          "context": "Asia Pacific accounted for 10% of net revenue in 2024."
+        },
+        {
+          "region": "Japan",
+          "revenue_pct": 5.0,
+          "revenue_amount": "NT$144,240 million",
+          "context": "Japan accounted for 5% of net revenue in 2024."
+        },
+        {
+          "region": "EMEA",
+          "revenue_pct": 4.0,
+          "revenue_amount": "NT$102,761 million",
+          "context": "EMEA accounted for 4% of net revenue in 2024."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "inventory_composition": {
+      "llm_count": 3,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "category": "work_in_progress",
+          "amount": "NT$181,198.8 million",
+          "pct_of_total": 62.9,
+          "context": "Work in process inventory as of December 31, 2024."
+        },
+        {
+          "category": "raw_materials",
+          "amount": "NT$46,449.3 million",
+          "pct_of_total": 16.1,
+          "context": "Raw materials inventory as of December 31, 2024."
+        },
+        {
+          "category": "finished_goods",
+          "amount": "NT$35,177.0 million",
+          "pct_of_total": 12.2,
+          "context": "Finished goods inventory as of December 31, 2024."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "purchase_obligations": {
+      "llm_count": 1,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "counterparty": "multiple suppliers",
+          "obligation_type": "Capital Purchase or Other Purchase Obligations",
+          "amount": "NT$1,144,112 million",
+          "timeframe": "due by period",
+          "context": "Represents commitments for construction or purchase of equipment, raw material and other property or services. These commitments were not recorded on our statement of financial position as of December 31, 2024."
+        }
+      ],
+      "xbrl_items": []
+    }
+  },
+  "PLTR": {
+    "ticker": "PLTR",
+    "revenue_concentration": {
+      "llm_count": 3,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Government segment",
+          "revenue_pct": 54.0,
+          "revenue_amount": "$2.4 billion",
+          "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+        },
+        {
+          "entity": "Commercial segment",
+          "revenue_pct": 46.0,
+          "revenue_amount": "$2.1 billion",
+          "context": "In the year ended December 31, 2025, 54% of our revenue came from government customers and 46% came from commercial customers."
+        },
+        {
+          "entity": "Top three customers",
+          "revenue_pct": 16.0,
+          "revenue_amount": "$716.1 million",
+          "context": "Our top three customers together accounted for 16% and 17% of our revenue for the years ended December 31, 2025 and 2024, respectively."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 3,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 74.0,
+          "revenue_amount": "$3.3 billion",
+          "context": "In the year ended December 31, 2025, we generated 74% of our revenue from customers in the United States and the remaining 26% from non-U.S. customers."
+        },
+        {
+          "region": "United Kingdom",
+          "revenue_pct": 10.0,
+          "revenue_amount": "$427.4 million",
+          "context": "Revenue from the United Kingdom was $427.4 million, representing 10% of total revenue in 2025."
+        },
+        {
+          "region": "Rest of world",
+          "revenue_pct": 16.0,
+          "revenue_amount": "$728.0 million",
+          "context": "Revenue from the Rest of world was $728.0 million, representing 16% of total revenue in 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 74.18,
+          "revenue_amount": "$3.3B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "United Kingdom",
+          "revenue_pct": 9.55,
+          "revenue_amount": "$427M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Rest Of World",
+          "revenue_pct": 16.27,
+          "revenue_amount": "$728M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 0,
+      "xbrl_count": 0,
+      "llm_items": [],
+      "xbrl_items": []
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "counterparty": "Not disclosed",
+          "obligation_type": "third-party cloud hosting services",
+          "amount": "$1.8 billion",
+          "timeframe": "through fiscal 2033",
+          "context": "Noncancelable purchase commitments primarily relate to purchase commitments for third-party cloud hosting services... Totaling $1,758,951 thousand."
+        },
+        {
+          "counterparty": "Not disclosed",
+          "obligation_type": "cloud services agreement",
+          "amount": "$1.95 billion",
+          "timeframe": "through September 30, 2033",
+          "context": "Under one of its third-party cloud services agreements, as amended, the Company has committed to spend at least $1.95 billion over ten contract years through September 30, 2033."
+        }
+      ],
+      "xbrl_items": []
+    }
+  },
+  "JPM": {
+    "ticker": "JPM",
+    "revenue_concentration": {
+      "llm_count": 3,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "entity": "Consumer & Community Banking",
+          "revenue_pct": 40.97,
+          "revenue_amount": "$76,029 million",
+          "context": "For management reporting purposes, the Firm has three reportable business segments \u2013 Consumer & Community Banking (\u201cCCB\u201d), Commercial & Investment Bank (\u201cCIB\u201d) and Asset & Wealth Management (\u201cAWM\u201d)... CCB total net revenue was $76,029 million."
+        },
+        {
+          "entity": "Commercial & Investment Bank",
+          "revenue_pct": 42.27,
+          "revenue_amount": "$78,454 million",
+          "context": "CIB total net revenue was $78,454 million for the year ended December 31, 2025."
+        },
+        {
+          "entity": "Asset & Wealth Management",
+          "revenue_pct": 12.97,
+          "revenue_amount": "$24,073 million",
+          "context": "AWM total net revenue was $24,073 million for the year ended December 31, 2025."
+        }
+      ],
+      "xbrl_items": []
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 5,
+      "llm_items": [
+        {
+          "region": "North America",
+          "revenue_pct": 76.56,
+          "revenue_amount": "$139,689 million",
+          "context": "North America revenue was $139,689 million for the year ended December 31, 2025."
+        },
+        {
+          "region": "Europe/Middle East/Africa",
+          "revenue_pct": 13.42,
+          "revenue_amount": "$24,478 million",
+          "context": "Europe/Middle East/Africa revenue was $24,478 million for the year ended December 31, 2025."
+        },
+        {
+          "region": "Asia-Pacific",
+          "revenue_pct": 7.71,
+          "revenue_amount": "$14,065 million",
+          "context": "Asia-Pacific revenue was $14,065 million for the year ended December 31, 2025."
+        },
+        {
+          "region": "Latin America/Caribbean",
+          "revenue_pct": 2.31,
+          "revenue_amount": "$4,215 million",
+          "context": "Latin America/Caribbean revenue was $4,215 million for the year ended December 31, 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "EMEA",
+          "revenue_pct": 13.42,
+          "revenue_amount": "$24.5B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Asia Pacific",
+          "revenue_pct": 7.71,
+          "revenue_amount": "$14.1B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Latin America",
+          "revenue_pct": 2.31,
+          "revenue_amount": "$4.2B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Total International",
+          "revenue_pct": 23.44,
+          "revenue_amount": "$42.8B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "North America",
+          "revenue_pct": 76.56,
+          "revenue_amount": "$139.7B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 0,
+      "xbrl_count": 0,
+      "llm_items": [],
+      "xbrl_items": []
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 1,
+      "llm_items": [
+        {
+          "counterparty": "Apple",
+          "obligation_type": "forward purchase commitment",
+          "amount": "$104 billion",
+          "timeframe": "expected closing in approximately 24 months",
+          "context": "The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio, with an expected closing in approximately 24 months (the \u201cApple Card transaction\u201d). At December 31, 2025, includes estimated total credit exposure related to the Apple Card transaction at the time that the transaction is expected to close of approximately $104 billion."
+        },
+        {
+          "counterparty": "Not disclosed",
+          "obligation_type": "operating lease commitments",
+          "amount": "$1.9 billion",
+          "timeframe": "commence between 2026 and 2029",
+          "context": "As of December 31, 2025, the Firm had additional future operating lease commitments of $1.9 billion that were signed but had not yet commenced. These operating leases will commence between 2026 and 2029 with lease terms up to 21 years."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "obligation_type": "unconditional purchase obligation",
+          "amount": "$1.9B",
+          "timeframe": "total",
+          "source": "xbrl"
+        }
+      ]
+    }
+  },
+  "ASML": {
+    "ticker": "ASML",
+    "revenue_concentration": {
+      "llm_count": 1,
+      "xbrl_count": 1,
+      "llm_items": [
+        {
+          "entity": "Four major customers",
+          "revenue_pct": 61.2,
+          "revenue_amount": "\u20ac20.0 billion",
+          "context": "In 2025, four customers each individually exceeded 10% of total net sales, totaling \u20ac20.0 billion, or 61.2%, of total net sales."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "entity": "Four Customers",
+          "revenue_pct": 61.2,
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 9,
+      "llm_items": [
+        {
+          "region": "Taiwan",
+          "revenue_pct": 31.4,
+          "revenue_amount": "\u20ac10,265.1 million",
+          "context": "Total net sales by geographic region: Taiwan \u20ac10,265.1 million (31.4%) in 2025."
+        },
+        {
+          "region": "South Korea",
+          "revenue_pct": 27.6,
+          "revenue_amount": "\u20ac9,017.6 million",
+          "context": "Total net sales by geographic region: South Korea \u20ac9,017.6 million (27.6%) in 2025."
+        },
+        {
+          "region": "China",
+          "revenue_pct": 22.8,
+          "revenue_amount": "\u20ac7,452.4 million",
+          "context": "Total net sales by geographic region: China \u20ac7,452.4 million (22.8%) in 2025."
+        },
+        {
+          "region": "United States",
+          "revenue_pct": 10.4,
+          "revenue_amount": "\u20ac3,388.7 million",
+          "context": "Total net sales by geographic region: United States \u20ac3,388.7 million (10.4%) in 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "Japan",
+          "revenue_pct": 4.35,
+          "revenue_amount": "$1.4B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "South Korea",
+          "revenue_pct": 24.95,
+          "revenue_amount": "$8.2B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "SG",
+          "revenue_pct": 1.86,
+          "revenue_amount": "$608M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Taiwan",
+          "revenue_pct": 25.5,
+          "revenue_amount": "$8.3B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "China",
+          "revenue_pct": 29.11,
+          "revenue_amount": "$9.5B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Rest Of Asia",
+          "revenue_pct": 0.01,
+          "revenue_amount": "$3M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "NL",
+          "revenue_pct": 0.01,
+          "revenue_amount": "$5M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "Rest Of Europe And Middle East",
+          "revenue_pct": 1.6,
+          "revenue_amount": "$524M",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        },
+        {
+          "region": "United States",
+          "revenue_pct": 12.5,
+          "revenue_amount": "$4.1B",
+          "source": "xbrl",
+          "end_date": "2025-12-31"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 3,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "category": "raw_materials",
+          "amount": "\u20ac3,151.7 million",
+          "pct_of_total": 15.1,
+          "context": "Raw materials increased to \u20ac3,151.7 million in 2025 from \u20ac2,593.4 million in 2024."
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "\u20ac11,707.0 million",
+          "pct_of_total": 56.1,
+          "context": "Work-in-progress was \u20ac11,707.0 million as of December 31, 2025."
+        },
+        {
+          "category": "finished_goods",
+          "amount": "\u20ac6,014.2 million",
+          "pct_of_total": 28.8,
+          "context": "Finished products were \u20ac6,014.2 million as of December 31, 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$4.9B",
+          "source": "xbrl",
+          "pct_of_total": 41.61
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$4.9B",
+          "source": "xbrl",
+          "pct_of_total": 41.28
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$2.0B",
+          "source": "xbrl",
+          "pct_of_total": 17.11
+        }
+      ]
+    },
+    "purchase_obligations": {
+      "llm_count": 1,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "counterparty": "Not disclosed",
+          "obligation_type": "Purchase obligations",
+          "amount": "\u20ac14,561.4 million",
+          "timeframe": "through 2030 and thereafter",
+          "context": "We have purchase obligations toward suppliers in the ordinary course of business which mainly relate to goods and services for our operations and obligations relating to further expansion and upgrade of our facilities."
+        }
+      ],
+      "xbrl_items": []
+    }
+  },
+  "SMCI": {
+    "ticker": "SMCI",
+    "revenue_concentration": {
+      "llm_count": 4,
+      "xbrl_count": 4,
+      "llm_items": [
+        {
+          "entity": "Customer A",
+          "revenue_pct": 20.9,
+          "revenue_amount": "not disclosed",
+          "context": "Significant customer information is as follows: Customer A accounted for 20.9% of total net sales in fiscal year 2025."
+        },
+        {
+          "entity": "Customer B",
+          "revenue_pct": 11.5,
+          "revenue_amount": "not disclosed",
+          "context": "Significant customer information is as follows: Customer B accounted for 11.5% of total net sales in fiscal year 2025."
+        },
+        {
+          "entity": "Customer C",
+          "revenue_pct": 11.3,
+          "revenue_amount": "not disclosed",
+          "context": "Significant customer information is as follows: Customer C accounted for 11.3% of total net sales in fiscal year 2025."
+        },
+        {
+          "entity": "Customer D",
+          "revenue_pct": 11.1,
+          "revenue_amount": "not disclosed",
+          "context": "Significant customer information is as follows: Customer D accounted for 11.1% of total net sales in fiscal year 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "entity": "Customer A",
+          "revenue_pct": 20.9,
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "entity": "Customer B",
+          "revenue_pct": 11.5,
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "entity": "Customer C",
+          "revenue_pct": 11.3,
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "entity": "Customer D",
+          "revenue_pct": 11.1,
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        }
+      ]
+    },
+    "geographic_revenue": {
+      "llm_count": 4,
+      "xbrl_count": 4,
+      "llm_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 59.4,
+          "revenue_amount": "$13,052.6 million",
+          "context": "United States net sales were $13,052.6 million, representing 59.4% of total net sales in fiscal year 2025."
+        },
+        {
+          "region": "Asia",
+          "revenue_pct": 25.0,
+          "revenue_amount": "$5,494.1 million",
+          "context": "Asia net sales were $5,494.1 million, representing 25.0% of total net sales in fiscal year 2025."
+        },
+        {
+          "region": "Europe",
+          "revenue_pct": 12.4,
+          "revenue_amount": "$2,727.0 million",
+          "context": "Europe net sales were $2,727.0 million, representing 12.4% of total net sales in fiscal year 2025."
+        },
+        {
+          "region": "Thailand",
+          "revenue_pct": 10.9,
+          "revenue_amount": "not disclosed",
+          "context": "For the year ended June 30, 2025, 59.4% and 10.9% of revenues were from the United States and Thailand, respectively."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "region": "United States",
+          "revenue_pct": 62.16,
+          "revenue_amount": "$13.1B",
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "region": "Asia",
+          "revenue_pct": 26.16,
+          "revenue_amount": "$5.5B",
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "region": "Europe",
+          "revenue_pct": 12.99,
+          "revenue_amount": "$2.7B",
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        },
+        {
+          "region": "Other Countries",
+          "revenue_pct": 3.33,
+          "revenue_amount": "$698M",
+          "source": "xbrl",
+          "end_date": "2025-06-30"
+        }
+      ]
+    },
+    "inventory_composition": {
+      "llm_count": 3,
+      "xbrl_count": 3,
+      "llm_items": [
+        {
+          "category": "finished_goods",
+          "amount": "$3,465.4 million",
+          "pct_of_total": 74.0,
+          "context": "Finished goods inventory was $3,465,352 thousand as of June 30, 2025."
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$674.6 million",
+          "pct_of_total": 14.4,
+          "context": "Work in process inventory was $674,613 thousand as of June 30, 2025."
+        },
+        {
+          "category": "raw_materials",
+          "amount": "$540.4 million",
+          "pct_of_total": 11.5,
+          "context": "Purchased parts and raw materials inventory was $540,410 thousand as of June 30, 2025."
+        }
+      ],
+      "xbrl_items": [
+        {
+          "category": "raw_materials",
+          "amount": "$540M",
+          "source": "xbrl",
+          "pct_of_total": 11.55
+        },
+        {
+          "category": "work_in_progress",
+          "amount": "$675M",
+          "source": "xbrl",
+          "pct_of_total": 14.41
+        },
+        {
+          "category": "finished_goods",
+          "amount": "$3.5B",
+          "source": "xbrl",
+          "pct_of_total": 74.04
+        }
+      ]
+    },
+    "purchase_obligations": {
+      "llm_count": 2,
+      "xbrl_count": 0,
+      "llm_items": [
+        {
+          "counterparty": "not disclosed",
+          "obligation_type": "non-cancelable purchase commitments",
+          "amount": "$1.6 billion",
+          "timeframe": "primarily through the next 12 months",
+          "context": "As noted in Note 13, \u201cCommitments and Contingencies\u201d in the notes to the consolidated financial statements, we have current obligations related to non-cancelable purchase commitments of $1.6 billion."
+        },
+        {
+          "counterparty": "Related parties (Ablecom and Compuware)",
+          "obligation_type": "non-cancelable purchase commitments",
+          "amount": "$148.9 million",
+          "timeframe": "primarily through the next 12 months",
+          "context": "As of June 30, 2025, these remaining non-cancelable commitments were $1.6 billion, including $148.9 million to related parties."
+        }
+      ],
+      "xbrl_items": []
+    }
+  }
+}

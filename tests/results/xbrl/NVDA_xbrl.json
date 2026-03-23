@@ -1,0 +1,83 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-25",
+    "accession_number": "0001045810-26-000021",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000021/nvda-20260125.htm"
+  },
+  "data": {
+    "revenue_concentration": [
+      {
+        "entity": "Customer One",
+        "revenue_pct": 22.0,
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "entity": "Customer Two",
+        "revenue_pct": 14.0,
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 69.29,
+        "revenue_amount": "$149.6B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "Taiwan",
+        "revenue_pct": 19.61,
+        "revenue_amount": "$42.3B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "China Including Hong Kong",
+        "revenue_pct": 9.11,
+        "revenue_amount": "$19.7B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 1.99,
+        "revenue_amount": "$4.3B",
+        "source": "xbrl",
+        "end_date": "2026-01-25"
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "raw_materials",
+        "amount": "$3.8B",
+        "source": "xbrl",
+        "pct_of_total": 17.79
+      },
+      {
+        "category": "work_in_progress",
+        "amount": "$8.8B",
+        "source": "xbrl",
+        "pct_of_total": 41.22
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$8.8B",
+        "source": "xbrl",
+        "pct_of_total": 40.99
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$22.7B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  },
+  "xbrl_available": true
+}

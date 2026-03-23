@@ -1,0 +1,103 @@
+{
+  "ticker": "CRWD",
+  "revenue_concentration": {
+    "llm_count": 1,
+    "xbrl_count": 0,
+    "llm_items": [
+      {
+        "entity": "Channel partners or direct customers",
+        "revenue_pct": null,
+        "revenue_amount": "None > 10%",
+        "context": "There were no channel partners or direct customers who represented 10% or more of the Company\u2019s total revenue during the fiscal years ended January 31, 2026, January 31, 2025, and January 31, 2024."
+      }
+    ],
+    "xbrl_items": []
+  },
+  "geographic_revenue": {
+    "llm_count": 4,
+    "xbrl_count": 4,
+    "llm_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 67.0,
+        "revenue_amount": "$3,216.7 million",
+        "context": "United States revenue for fiscal 2026 was $3,216,654 thousand, representing 67% of total revenue."
+      },
+      {
+        "region": "Europe, Middle East, and Africa",
+        "revenue_pct": 16.0,
+        "revenue_amount": "$782.7 million",
+        "context": "Europe, Middle East, and Africa revenue for fiscal 2026 was $782,666 thousand, representing 16% of total revenue."
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 10.0,
+        "revenue_amount": "$495.7 million",
+        "context": "Asia Pacific revenue for fiscal 2026 was $495,701 thousand, representing 10% of total revenue."
+      },
+      {
+        "region": "Other",
+        "revenue_pct": 7.0,
+        "revenue_amount": "$317.0 million",
+        "context": "Other regions revenue for fiscal 2026 was $316,984 thousand, representing 7% of total revenue."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "region": "United States",
+        "revenue_pct": 66.85,
+        "revenue_amount": "$3.2B",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "EMEA",
+        "revenue_pct": 16.26,
+        "revenue_amount": "$783M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "Asia Pacific",
+        "revenue_pct": 10.3,
+        "revenue_amount": "$496M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      },
+      {
+        "region": "Other Countries",
+        "revenue_pct": 6.59,
+        "revenue_amount": "$317M",
+        "source": "xbrl",
+        "end_date": "2026-01-31"
+      }
+    ]
+  },
+  "inventory_composition": {
+    "llm_count": 0,
+    "xbrl_count": 0,
+    "llm_items": [],
+    "xbrl_items": []
+  },
+  "purchase_obligations": {
+    "llm_count": 1,
+    "xbrl_count": 1,
+    "llm_items": [
+      {
+        "counterparty": "Various",
+        "obligation_type": "non-cancelable purchase commitments",
+        "amount": "$2.8 billion",
+        "timeframe": "remaining terms in excess of 12 months",
+        "context": "We have non-cancelable purchase commitments with various parties to purchase products and services entered in the normal course of business totaling $2.8 billion as of January 31, 2026, with remaining terms in excess of 12 months."
+      }
+    ],
+    "xbrl_items": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$104M",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  }
+}

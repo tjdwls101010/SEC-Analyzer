@@ -1,0 +1,70 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-11",
+    "accession_number": "0000037996-26-000015",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/37996/000003799626000015/f-20251231.htm"
+  },
+  "data": {
+    "geographic_revenue": [
+      {
+        "region": "United States",
+        "revenue_pct": 65.45,
+        "revenue_amount": "$122.6B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "CA",
+        "revenue_pct": 7.77,
+        "revenue_amount": "$14.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "United Kingdom",
+        "revenue_pct": 6.57,
+        "revenue_amount": "$12.3B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "MX",
+        "revenue_pct": 1.32,
+        "revenue_amount": "$2.5B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      },
+      {
+        "region": "Other Geographical",
+        "revenue_pct": 18.89,
+        "revenue_amount": "$35.4B",
+        "source": "xbrl",
+        "end_date": "2025-12-31"
+      }
+    ],
+    "inventory_composition": [
+      {
+        "category": "work_in_progress",
+        "amount": "$5.4B",
+        "source": "xbrl",
+        "pct_of_total": 36.08
+      },
+      {
+        "category": "finished_goods",
+        "amount": "$9.6B",
+        "source": "xbrl",
+        "pct_of_total": 63.92
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "obligation_type": "unconditional purchase obligation",
+        "amount": "$1.1B",
+        "timeframe": "total",
+        "source": "xbrl"
+      }
+    ]
+  },
+  "xbrl_available": true
+}

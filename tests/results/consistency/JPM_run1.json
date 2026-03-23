@@ -1,0 +1,165 @@
+{
+  "filing": {
+    "form": "10-K",
+    "filing_date": "2026-02-13",
+    "accession_number": "0001628280-26-008131",
+    "filing_url": "https://www.sec.gov/Archives/edgar/data/19617/000162828026008131/jpm-20251231.htm"
+  },
+  "data": {
+    "suppliers": [
+      {
+        "entity": "Federal Home Loan Banks",
+        "relationship": "Provider of borrowing capacity and funding",
+        "context": "The Firm also had available borrowing capacity at the Federal Home Loan Banks (\u201cFHLBs\u201d) and the discount window at the Federal Reserve Banks as a result of collateral pledged by the Firm to such banks of approximately $449 billion and $413 billion as of December 31, 2025 and 2024, respectively."
+      },
+      {
+        "entity": "Ginnie Mae",
+        "relationship": "Securitization and guarantee provider",
+        "context": "The Firm also sells loans into securitization transactions pursuant to Ginnie Mae guidelines; these loans are typically insured or guaranteed by another U.S. government agency."
+      },
+      {
+        "entity": "Fannie Mae",
+        "relationship": "Mortgage loan purchaser and credit risk sharer",
+        "context": "In recourse servicing, the servicer agrees to share credit risk with the owner of the mortgage loans, such as Fannie Mae or Freddie Mac or a private investor, insurer or guarantor."
+      },
+      {
+        "entity": "Freddie Mac",
+        "relationship": "Mortgage loan purchaser and credit risk sharer",
+        "context": "In recourse servicing, the servicer agrees to share credit risk with the owner of the mortgage loans, such as Fannie Mae or Freddie Mac or a private investor, insurer or guarantor."
+      },
+      {
+        "entity": "Fixed Income Clearing Corporation",
+        "relationship": "Clearing house for repo program",
+        "context": "The Firm acts as a sponsoring member to clear eligible overnight and term resale and repurchase agreements through the Government Securities Division of the Fixed Income Clearing Corporation (\u201cFICC\u201d) on behalf of clients that become sponsored members under the FICC\u2019s rules."
+      }
+    ],
+    "customers": [
+      {
+        "entity": "Apple",
+        "relationship": "Co-brand credit card partner",
+        "context": "On January 7, 2026, JPMorganChase announced that Chase will become the new issuer of Apple Card. The Firm entered into a forward purchase commitment on December 30, 2025 to acquire the Apple credit card portfolio, with an expected closing in approximately 24 months (the \u201cApple Card transaction\u201d)."
+      }
+    ],
+    "single_source_dependencies": [
+      {
+        "component": "Clearing services for overnight and term resale and repurchase agreements",
+        "supplier": "Fixed Income Clearing Corporation",
+        "context": "The Firm acts as a sponsoring member to clear eligible overnight and term resale and repurchase agreements through the Government Securities Division of the Fixed Income Clearing Corporation (\u201cFICC\u201d) on behalf of clients that become sponsored members under the FICC\u2019s rules."
+      }
+    ],
+    "geographic_concentration": [
+      {
+        "location": "United States",
+        "activity": "Principal executive offices and 58% of global workforce",
+        "context": "JPMorganChase\u2019s employees are located in 66 countries, with 58% of the Firm\u2019s employees located in the U.S."
+      },
+      {
+        "location": "India",
+        "activity": "Property location",
+        "context": "The Firm owned or leased facilities in the following locations at December 31, 2025... India 6.6 [million] Approximate square footage."
+      },
+      {
+        "location": "Philippines",
+        "activity": "Property location",
+        "context": "The Firm owned or leased facilities in the following locations at December 31, 2025... Philippines 1.7 [million] Approximate square footage."
+      }
+    ],
+    "capacity_constraints": [],
+    "supply_chain_risks": [
+      {
+        "risk": "Cyber attacks",
+        "context": "JPMorganChase experiences numerous cyber attacks on its computer systems, software, networks and other technology assets. Cyber attacks could take many forms, and may be designed to: introduce computer viruses or malicious code (i.e., \u201cmalware\u201d) into JPMorganChase\u2019s systems."
+      },
+      {
+        "risk": "Geopolitical tensions",
+        "context": "These risks could become highly correlated or combine in unexpected ways under certain circumstances, including geopolitically challenging situations in regions such as Russia, the Middle East and China."
+      }
+    ],
+    "revenue_concentration": [
+      {
+        "entity": "Commercial & Investment Bank",
+        "revenue_pct": 42.3,
+        "revenue_amount": "$78.45 billion",
+        "context": "The Commercial & Investment Bank is comprised of the Banking & Payments and Markets & Securities Services businesses. These businesses offer investment banking, lending, payments, market-making, financing, custody and securities products and services to a global base of corporate and institutional clients."
+      },
+      {
+        "entity": "Consumer & Community Banking",
+        "revenue_pct": 41.0,
+        "revenue_amount": "$76.03 billion",
+        "context": "Consumer & Community Banking offers products and services to consumers and small businesses through bank branches, ATMs, digital (including mobile and online) and telephone banking."
+      },
+      {
+        "entity": "Asset & Wealth Management",
+        "revenue_pct": 13.0,
+        "revenue_amount": "$24.07 billion",
+        "context": "Asset & Wealth Management, with client assets of $7.1 trillion, is a global leader in investment and wealth management."
+      }
+    ],
+    "geographic_revenue": [
+      {
+        "region": "North America",
+        "revenue_pct": 76.6,
+        "revenue_amount": "$139.69 billion",
+        "context": "The Firm defines international activities for purposes of this footnote presentation as business transactions that involve clients residing outside of the U.S., and the information presented below is based predominantly on the domicile of the client... North America $139,689 [million]."
+      },
+      {
+        "region": "Europe/Middle East/Africa",
+        "revenue_pct": 13.4,
+        "revenue_amount": "$24.48 billion",
+        "context": "Europe/Middle East/Africa $24,478 [million]."
+      },
+      {
+        "region": "Asia-Pacific",
+        "revenue_pct": 7.7,
+        "revenue_amount": "$14.07 billion",
+        "context": "Asia-Pacific $14,065 [million]."
+      },
+      {
+        "region": "Latin America/Caribbean",
+        "revenue_pct": 2.3,
+        "revenue_amount": "$4.22 billion",
+        "context": "Latin America/Caribbean $4,215 [million]."
+      }
+    ],
+    "purchase_obligations": [
+      {
+        "counterparty": "Federal Deposit Insurance Corporation",
+        "obligation_type": "Purchase Money Note",
+        "amount": "$50 billion",
+        "timeframe": "five-year",
+        "context": "As part of the consideration paid, JPMorganChase issued a five-year, $50 billion secured note to the FDIC (the \u201cPurchase Money Note\u201d)."
+      },
+      {
+        "counterparty": "Not disclosed",
+        "obligation_type": "unfunded commitments related to tax-oriented equity investments",
+        "amount": "$16.4 billion",
+        "timeframe": "Not disclosed",
+        "context": "At December 31, 2025 and 2024, the maximum loss exposure, represented by equity investments and funding commitments, was $38.1 billion and $35.2 billion, of which $16.4 billion and $15.0 billion was unfunded, respectively."
+      }
+    ],
+    "market_risk_disclosures": [
+      {
+        "risk_type": "interest_rate",
+        "exposure": "+100 bps shift in rates",
+        "sensitivity": "$2.1 billion",
+        "hedging": "The Firm manages structural interest rate risk generally through its investment securities portfolio and interest rate derivatives.",
+        "context": "The effect of interest rate exposure on the Firm\u2019s reported net income is important as interest rate risk represents one of the Firm\u2019s significant market risks."
+      },
+      {
+        "risk_type": "fx",
+        "exposure": "Non-U.S. dollar exchange rates",
+        "sensitivity": "Not disclosed",
+        "hedging": "Treasury and CIO may hedge certain of these risks using derivatives.",
+        "context": "Non-U.S. dollar FX risk is the risk that changes in foreign exchange rates affect the value of the Firm\u2019s assets or liabilities or future results."
+      },
+      {
+        "risk_type": "commodity",
+        "exposure": "Precious and base metals, natural gas",
+        "sensitivity": "Not disclosed",
+        "hedging": "Commodities derivatives are used to manage the price risk of certain commodities inventories.",
+        "context": "In the physical commodity markets, the Firm primarily purchases and sells precious and base metals, natural gas, and may hold other commodities inventories under financing and other arrangements with clients."
+      }
+    ],
+    "inventory_composition": []
+  }
+}
