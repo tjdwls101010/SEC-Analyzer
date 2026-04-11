@@ -145,7 +145,7 @@ def _extract_with_llm(
     gen_config = {
         "response_mime_type": "application/json",
         "response_json_schema": preset_cls.model_json_schema(),
-        "temperature": 0.1,
+        "temperature": 0,
     }
 
     thinking_level = os.environ.get("GOOGLE_THINKING_LEVEL", "low")
