@@ -2,6 +2,10 @@
 
 Newest first. Each entry: `## YYYY-MM-DD — short title`, then 1–3 sentences (context + decision + why).
 
+## 2026-06-08 — XBRL geographic-leak: robust geo-set rule + geo-cell guard
+
+Implementing #2 against live NVDA data showed the planned "exclude `MajorCustomersAxis` members that also appear in the `StatementGeographicalAxis` member set" rule is insufficient alone: NVDA's `nvda:UnitedStatesAndEuropeBasedEndCustomersMember` rides the customer axis on the *revenue* benchmark in the current period (76%) but is **not** itself a geographic-axis member, so the set-intersection rule does not catch it — it would leak as a 76% "customer". The fix keeps the set-intersection rule (catches geographic members riding the customer axis with no geo cell) and **adds** a complementary guard: skip any concentration row that also carries a `StatementGeographicalAxis` cell (NVDA's offending row carries `country:TW`). The earlier "Verified: the rule excludes this member" claim in issue #2 was inaccurate; both filters now ship together. (PM-confirmed.)
+
 ## 2026-06-08 — 0.2.0 plan: adversarial-review open questions resolved
 
 From the multi-agent issue review: (1) XBRL geographic-leak filter uses the robust "member also on the geographic axis in the same filing" rule, not the brittle keyword denylist; (2) the inventory `pct_of_total` period-selection bug is fixed (most-recent `period_instant` denominator, not `iloc[0]`); (3) provider refusals are non-retryable (surface the reason immediately); (4) the library return stays python-mode `model_dump()`; (5) CI wiring ships with placeholder tests so it is demoable before the test slices land. Recorded so the implementing session does not reopen them.
