@@ -1,17 +1,101 @@
-"""Core extraction engine: edgartools filing load + Gemini structured output."""
+"""Core extraction engine: edgartools filing load + OpenRouter structured output."""
 
 from __future__ import annotations
 
 import os
 import re
-import sys
 import time
-from typing import TYPE_CHECKING
+from typing import TYPE_CHECKING, Any
 
 if TYPE_CHECKING:
     from pydantic import BaseModel
 
 _MAX_MARKDOWN_CHARS = 2_000_000
+_OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+_OPENROUTER_DEFAULT_MODEL = "deepseek/deepseek-v4-flash"
+_OPENROUTER_TIMEOUT_SECONDS = 120.0
+_OPENROUTER_RETRIES = 3
+_OPENROUTER_BACKOFF_BASE_SECONDS = 1.0
+_OPENROUTER_REASONING_EFFORTS = {
+    "none",
+    "minimal",
+    "low",
+    "medium",
+    "high",
+    "xhigh",
+}
+_OPENROUTER_HEADERS = {
+    "HTTP-Referer": "https://github.com/tjdwls101010/SEC-Analyzer",
+    "X-Title": "SEC-Analyzer",
+}
+
+
+def _non_empty(value: str | None) -> str | None:
+    if value is None:
+        return None
+    value = value.strip()
+    return value or None
+
+
+def _resolve_openrouter_api_key(api_key: str | None = None) -> str:
+    resolved = _non_empty(api_key) or _non_empty(os.environ.get("OPENROUTER_API_KEY"))
+    if not resolved:
+        raise ValueError(
+            "OPENROUTER_API_KEY not set. Pass api_key=... or set "
+            "OPENROUTER_API_KEY in your environment or .env file."
+        )
+    return resolved
+
+
+def _resolve_openrouter_model(model: str | None = None) -> str:
+    return (
+        _non_empty(model)
+        or _non_empty(os.environ.get("OPENROUTER_MODEL"))
+        or _OPENROUTER_DEFAULT_MODEL
+    )
+
+
+def _resolve_openrouter_base_url() -> str:
+    return _non_empty(os.environ.get("OPENROUTER_BASE_URL")) or _OPENROUTER_BASE_URL
+
+
+def _resolve_openrouter_reasoning_effort() -> str:
+    effort = (_non_empty(os.environ.get("OPENROUTER_REASONING_EFFORT")) or "none").lower()
+    if effort not in _OPENROUTER_REASONING_EFFORTS:
+        return "none"
+    return effort
+
+
+def _sleep_before_retry(attempt: int) -> None:
+    time.sleep(_OPENROUTER_BACKOFF_BASE_SECONDS * (2 ** (attempt - 1)))
+
+
+def _response_value(obj: Any, key: str, default: Any = None) -> Any:
+    if obj is None:
+        return default
+    if isinstance(obj, dict):
+        return obj.get(key, default)
+    return getattr(obj, key, default)
+
+
+def _first_choice(choices: Any) -> Any:
+    if not choices:
+        return None
+    try:
+        return choices[0]
+    except (IndexError, KeyError, TypeError):
+        return None
+
+
+def _format_provider_exception(exc: Exception, api_status_error_type: type[Exception]) -> str:
+    parts = [str(exc) or repr(exc)]
+    if isinstance(exc, api_status_error_type):
+        body = getattr(exc, "body", None)
+        if body is not None:
+            body_text = str(body)
+            if body_text and body_text not in parts[0]:
+                parts.append(f"body: {body_text}")
+    return " | ".join(parts)
 
 
 def _init_edgar(identity: str | None = None):
@@ -115,21 +199,14 @@ def _extract_with_llm(
     company_name: str = "",
     api_key: str | None = None,
     model: str | None = None,
-) -> BaseModel | None:
-    """Extract structured data using Gemini structured output + Pydantic.
+) -> BaseModel:
+    """Extract structured data using OpenRouter structured output + Pydantic."""
+    from openai import APIStatusError, OpenAI
+    from pydantic import ValidationError
 
-    Returns:
-        Pydantic model instance, or None on failure.
-    """
-    from google import genai
-
-    api_key = api_key or os.environ.get("GOOGLE_API_KEY")
-    if not api_key:
-        raise ValueError(
-            "GOOGLE_API_KEY not set. Pass api_key parameter or set the environment variable."
-        )
-
-    model_id = model or os.environ.get("GOOGLE_MODEL", "gemini-2.5-flash")
+    resolved_api_key = _resolve_openrouter_api_key(api_key)
+    model_id = _resolve_openrouter_model(model)
+    reasoning_effort = _resolve_openrouter_reasoning_effort()
 
     # Build prompt: use preset's __prompt__ if available, else generate default
     custom_prompt = getattr(preset_cls, "__prompt__", None)
@@ -142,39 +219,92 @@ def _extract_with_llm(
         template = _build_default_prompt(preset_cls, company_name or "Unknown")
         prompt = template.format(filing_text=filing_text)
 
-    gen_config = {
-        "response_mime_type": "application/json",
-        "response_json_schema": preset_cls.model_json_schema(),
-        "temperature": 0,
+    response_format = {
+        "type": "json_schema",
+        "json_schema": {
+            "name": preset_cls.__name__,
+            "strict": True,
+            "schema": preset_cls.model_json_schema(),
+        },
     }
 
-    thinking_level = os.environ.get("GOOGLE_THINKING_LEVEL", "low")
-    if thinking_level and thinking_level.lower() in ("low", "medium", "high", "minimal"):
-        from google.genai import types
-        gen_config["thinking_config"] = types.ThinkingConfig(
-            thinking_level=thinking_level.lower()
+    client = OpenAI(
+        api_key=resolved_api_key,
+        base_url=_resolve_openrouter_base_url(),
+        max_retries=0,
+        default_headers=_OPENROUTER_HEADERS,
+    )
+
+    last_failure = ""
+    failure_kinds: list[str] = []
+
+    for attempt in range(1, _OPENROUTER_RETRIES + 1):
+        try:
+            request_kwargs: dict[str, Any] = {
+                "model": model_id,
+                "messages": [{"role": "user", "content": prompt}],
+                "response_format": response_format,
+                "temperature": 0,
+                "timeout": _OPENROUTER_TIMEOUT_SECONDS,
+            }
+            if reasoning_effort != "none":
+                request_kwargs["reasoning_effort"] = reasoning_effort
+
+            response = client.chat.completions.create(**request_kwargs)
+        except Exception as e:
+            last_failure = _format_provider_exception(e, APIStatusError)
+            failure_kinds.append("provider")
+        else:
+            top_level_error = _response_value(response, "error")
+            if top_level_error:
+                last_failure = f"provider returned error: {top_level_error}"
+                failure_kinds.append("provider")
+            else:
+                choice = _first_choice(_response_value(response, "choices"))
+                if choice is None:
+                    last_failure = f"provider returned no choices for model {model_id}"
+                    failure_kinds.append("provider")
+                else:
+                    message = _response_value(choice, "message")
+                    if message is None:
+                        last_failure = (
+                            f"provider returned a choice without a message for model {model_id}"
+                        )
+                        failure_kinds.append("provider")
+                    else:
+                        refusal = _response_value(message, "refusal")
+                        if refusal:
+                            raise RuntimeError(
+                                f"OpenRouter extraction refused for model {model_id}: {refusal}"
+                            )
+
+                        content = _response_value(message, "content")
+                        if not isinstance(content, str) or not content.strip():
+                            last_failure = (
+                                "provider returned empty content on attempt "
+                                f"{attempt}/{_OPENROUTER_RETRIES} for model {model_id}"
+                            )
+                            failure_kinds.append("empty")
+                        else:
+                            try:
+                                return preset_cls.model_validate_json(content)
+                            except ValidationError as e:
+                                last_failure = str(e)
+                                failure_kinds.append("validation")
+
+        if attempt < _OPENROUTER_RETRIES:
+            _sleep_before_retry(attempt)
+
+    if failure_kinds and all(kind == "empty" for kind in failure_kinds):
+        last_failure = (
+            "provider returned empty content on all "
+            f"{_OPENROUTER_RETRIES} attempts for model {model_id}"
         )
 
-    client = genai.Client(api_key=api_key)
-    retries = 3
-
-    for attempt in range(1, retries + 1):
-        try:
-            response = client.models.generate_content(
-                model=model_id,
-                contents=prompt,
-                config=gen_config,
-            )
-            return preset_cls.model_validate_json(response.text)
-        except Exception as e:
-            print(
-                f"[sec-analyzer] LLM attempt {attempt}/{retries} failed: {e}",
-                file=sys.stderr,
-            )
-            if attempt < retries:
-                time.sleep(2**attempt)
-                continue
-            return None
+    raise RuntimeError(
+        "OpenRouter extraction failed for "
+        f"model {model_id} after {_OPENROUTER_RETRIES} attempts: {last_failure}"
+    )
 
 
 def extract(
@@ -197,8 +327,9 @@ def extract(
             Auto-fallback from 10-K to 20-F for foreign issuers.
         filing_date: Specific filing date (YYYY-MM-DD). None for latest.
         max_chars: Maximum filing markdown length.
-        api_key: Google API key. Falls back to GOOGLE_API_KEY env var.
-        model: Gemini model ID. Falls back to GOOGLE_MODEL env var.
+        api_key: OpenRouter API key. Falls back to OPENROUTER_API_KEY env var.
+        model: OpenRouter model ID. Falls back to OPENROUTER_MODEL env var,
+            then deepseek/deepseek-v4-flash.
 
     Returns:
         dict with "filing" (metadata) and "data" (extracted fields).
@@ -206,6 +337,8 @@ def extract(
     from dotenv import load_dotenv
 
     load_dotenv()
+
+    _resolve_openrouter_api_key(api_key)
 
     filing, metadata, company_name = _get_filing(symbol, form, filing_date)
     markdown = _get_markdown(filing, max_chars)
@@ -217,9 +350,6 @@ def extract(
         api_key=api_key,
         model=model,
     )
-
-    if result is None:
-        raise RuntimeError(f"LLM extraction failed for {symbol} ({metadata['form']})")
 
     return {
         "filing": metadata,
