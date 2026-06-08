@@ -41,5 +41,6 @@ source = "vcs"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 markers = [
-    "live: real network/SEC/OpenRouter health-check (excluded from the per-push offline gate)",
+    "live: real network health-check (excluded from the per-push offline gate)",
+    "sec: live SEC EDGAR fetch (excluded from the weekly CI cron — SEC blocks CI IPs; run locally)",
 ]
