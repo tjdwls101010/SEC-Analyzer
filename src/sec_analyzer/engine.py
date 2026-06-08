@@ -165,7 +165,33 @@ def _get_markdown(filing, max_chars: int = _MAX_MARKDOWN_CHARS) -> str:
     return md
 
 
-def _build_default_prompt(preset_cls: type[BaseModel], company_name: str) -> str:
+def _substitute_prompt_placeholders(
+    template: str,
+    *,
+    company_name: str,
+    filing_text: str,
+) -> str:
+    """Substitute only the supported prompt placeholders.
+
+    Unknown placeholders and stray braces are literal by design. Values are data,
+    not templates, so inserted braces are not re-scanned.
+    """
+    replacements = {
+        "{company_name}": company_name,
+        "{filing_text}": filing_text,
+    }
+    return re.sub(
+        r"\{company_name\}|\{filing_text\}",
+        lambda match: replacements[match.group(0)],
+        template,
+    )
+
+
+def _build_default_prompt(
+    preset_cls: type[BaseModel],
+    company_name: str,
+    filing_text: str,
+) -> str:
     """Build a default extraction prompt from Pydantic field descriptions."""
     schema = preset_cls.model_json_schema()
     fields_desc = []
@@ -173,14 +199,20 @@ def _build_default_prompt(preset_cls: type[BaseModel], company_name: str) -> str
         desc = prop.get("description", name)
         fields_desc.append(f"- {name}: {desc}")
 
-    return f"""\
+    header = _substitute_prompt_placeholders(
+        """\
 You are a financial analyst extracting structured data from SEC filings.
 Extract entities and data exactly as stated in the filing text.
 
 Filing company: {company_name}
 
 Extract the following fields:
-{chr(10).join(fields_desc)}
+""",
+        company_name=company_name,
+        filing_text=filing_text,
+    )
+    footer = _substitute_prompt_placeholders(
+        """
 
 Rules:
 1. Use exact names and figures from the filing — do not paraphrase or invent.
@@ -189,8 +221,12 @@ Rules:
 
 Extract from this SEC filing text:
 
-{{filing_text}}
-"""
+{filing_text}
+""",
+        company_name=company_name,
+        filing_text=filing_text,
+    )
+    return f"{header}{chr(10).join(fields_desc)}{footer}"
 
 
 def _extract_with_llm(
@@ -211,13 +247,17 @@ def _extract_with_llm(
     # Build prompt: use preset's __prompt__ if available, else generate default
     custom_prompt = getattr(preset_cls, "__prompt__", None)
     if custom_prompt:
-        prompt = custom_prompt.format(
+        prompt = _substitute_prompt_placeholders(
+            custom_prompt,
             company_name=company_name or "Unknown",
             filing_text=filing_text,
         )
     else:
-        template = _build_default_prompt(preset_cls, company_name or "Unknown")
-        prompt = template.format(filing_text=filing_text)
+        prompt = _build_default_prompt(
+            preset_cls,
+            company_name=company_name or "Unknown",
+            filing_text=filing_text,
+        )
 
     response_format = {
         "type": "json_schema",
