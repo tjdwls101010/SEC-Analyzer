@@ -1,0 +1,60 @@
+name: Live Health Check
+
+on:
+  # Weekly Monday 07:17 UTC. Non-round minute avoids top-of-hour congestion.
+  schedule:
+    - cron: "17 7 * * 1"
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: true
+
+jobs:
+  live-healthcheck:
+    runs-on: ubuntu-latest
+    env:
+      OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+      EDGAR_IDENTITY: ${{ vars.EDGAR_IDENTITY }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install test dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e '.[test]'
+
+      - name: Pre-flight live configuration
+        run: |
+          if [ -z "${OPENROUTER_API_KEY:-}" ]; then
+            echo "::error::OPENROUTER_API_KEY is missing or empty"
+            exit 1
+          fi
+          if [ -z "${EDGAR_IDENTITY:-}" ]; then
+            echo "::error::EDGAR_IDENTITY is missing or empty"
+            exit 1
+          fi
+          if [ "$EDGAR_IDENTITY" = "SECAnalyzer/1.0 user@example.com" ]; then
+            echo "::error::EDGAR_IDENTITY still uses the placeholder value"
+            exit 1
+          fi
+
+      - name: Run live health-check
+        run: |
+          set +e
+          python -m pytest -m live
+          status=$?
+          if [ "$status" -eq 5 ]; then
+            echo "::error::No live tests collected"
+            exit 1
+          fi
+          exit "$status"
