@@ -26,6 +26,9 @@ dependencies = [
     "python-dotenv>=1,<2",
 ]
 
+[project.optional-dependencies]
+test = ["pytest>=8,<9"]
+
 [project.scripts]
 sec-analyzer = "sec_analyzer.cli:main"
 
@@ -34,3 +37,9 @@ Homepage = "https://github.com/tjdwls101010/SEC-Analyzer"
 
 [tool.hatch.version]
 source = "vcs"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = [
+    "live: real network/SEC/OpenRouter health-check (excluded from the per-push offline gate)",
+]
