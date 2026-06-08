@@ -19,10 +19,11 @@ classifiers = [
     "Topic :: Office/Business :: Financial",
 ]
 dependencies = [
-    "edgartools>=3.0",
-    "google-genai>=1.0",
-    "pydantic>=2.0",
-    "python-dotenv>=1.0",
+    "edgartools>=5,<6",
+    "openai>=2,<3",
+    "pandas>=2,<4",
+    "pydantic>=2,<3",
+    "python-dotenv>=1,<2",
 ]
 
 [project.scripts]

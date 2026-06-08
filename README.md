@@ -1,12 +1,10 @@
 <div align="center">
 
-<img src="https://i.namu.wiki/i/HbVpHEsWi0aG30L2PEWRL9FEA0P7Vf-iLYm0QPbH1iOGJabk3vYcDQz1Uxo1DX3OaujOJWX62rs6QgqXFOybLw.svg" width="120" alt="SEC">
-
 # SEC-Analyzer
 
-**Extract structured data from SEC filings using LLM + Pydantic presets.**
+**Extract structured data from SEC filings using LLM structured output + Pydantic presets.**
 
-Turn any SEC filing (10-K, 10-Q, 20-F, DEF 14A, ...) into structured JSON — define a Pydantic model, and the library does the rest.
+Turn any SEC filing (10-K, 10-Q, 20-F, DEF 14A, ...) into structured JSON: define a Pydantic model, and the library returns data matching it.
 
 [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](#)
 [![License: MIT](https://img.shields.io/badge/license-MIT-lightgrey)](#)
@@ -15,15 +13,13 @@ Turn any SEC filing (10-K, 10-Q, 20-F, DEF 14A, ...) into structured JSON — de
 
 </div>
 
-![](https://github.com/tjdwls101010/DUMOK/blob/main/Images/gemini-3-pro-1774265890176ioxhdiv1w.png?raw=true)
-
 ---
 
 ## Why This Library?
 
-SEC filings contain invaluable data — supply chains, revenue concentration, executive compensation, risk factors — but every filing has a different format. Traditional parsing breaks constantly.
+SEC filings contain valuable data: supply chains, revenue concentration, executive compensation, risk factors, market risk, inventory composition, and purchase obligations. Traditional parsing breaks because every filing has a different shape.
 
-This library uses **LLM structured output** (Gemini) to extract exactly the data you define in a **Pydantic model**. The LLM reads the filing and fills in your schema. No regex, no HTML parsing, no breakage.
+SEC-Analyzer uses **LLM structured output** through **OpenRouter** to extract exactly the data you define in a **Pydantic Preset**. The Model reads the Filing and fills in your schema. No regex, no HTML parsing, no custom post-processing.
 
 ```python
 from sec_analyzer import extract
@@ -44,7 +40,7 @@ print(result["data"]["suppliers"])
 pip install sec-analyzer
 ```
 
-Requires Python 3.10+ and a [Google AI API key](https://ai.google.dev/).
+Requires Python 3.10+ and an [OpenRouter API key](https://openrouter.ai/keys).
 
 ---
 
@@ -53,13 +49,16 @@ Requires Python 3.10+ and a [Google AI API key](https://ai.google.dev/).
 ### 1. Set your API key
 
 ```bash
-export GOOGLE_API_KEY="your-key-here"
+export OPENROUTER_API_KEY="your-openrouter-key-here"
 export EDGAR_IDENTITY="YourApp/1.0 your@email.com"
 ```
 
 Or create a `.env` file:
-```
-GOOGLE_API_KEY=your-key-here
+
+```dotenv
+OPENROUTER_API_KEY=your-openrouter-key-here
+OPENROUTER_MODEL=deepseek/deepseek-v4-flash
+OPENROUTER_REASONING_EFFORT=none
 EDGAR_IDENTITY=YourApp/1.0 your@email.com
 ```
 
@@ -95,7 +94,7 @@ print(f"Single-source deps: {len(data['single_source_dependencies'])}")
 
 ## Custom Presets
 
-The real power: **define your own Pydantic model** to extract anything.
+The main extension point is a **Preset**: a Pydantic `BaseModel` subclass that defines the Extraction schema.
 
 ### Basic custom preset
 
@@ -124,7 +123,7 @@ When no `__prompt__` is defined, the library auto-generates a prompt from your f
 
 ### Advanced: custom prompt
 
-For expert-level control, add a `__prompt__` class variable:
+For more control, add a `__prompt__` class variable:
 
 ```python
 from typing import ClassVar
@@ -184,14 +183,26 @@ Extracts 11 categories of supply chain intelligence from 10-K/10-Q/20-F filings:
 | Parameter | Type | Description |
 |-----------|------|-------------|
 | `symbol` | str | Ticker symbol (e.g., "NVDA") |
-| `preset` | BaseModel class | Pydantic model defining extraction schema |
-| `form` | str | Filing type. Auto-fallback 10-K → 20-F |
+| `preset` | BaseModel class | Pydantic model defining the Extraction schema |
+| `form` | str | Filing Form. Auto-fallback 10-K -> 20-F |
 | `filing_date` | str | Specific date (YYYY-MM-DD). None = latest |
 | `max_chars` | int | Max filing markdown length |
-| `api_key` | str | Google API key (fallback: `GOOGLE_API_KEY` env) |
-| `model` | str | Gemini model (fallback: `GOOGLE_MODEL` env, default: `gemini-2.5-flash`) |
+| `api_key` | str | OpenRouter API key. Falls back to `OPENROUTER_API_KEY` |
+| `model` | str | OpenRouter Model id. Falls back to `OPENROUTER_MODEL`, then `deepseek/deepseek-v4-flash` |
 
 **Returns** `{"filing": {...}, "data": {...}}`
+
+`data` is the validated Preset dump in python mode.
+
+### `extract_xbrl(symbol, form="10-K")`
+
+Extracts quantitative XBRL data when available and returns:
+
+```python
+{"filing": {...}, "data": {...}, "xbrl_available": True}
+```
+
+If no usable XBRL data is available, `xbrl_available` is `False`.
 
 ---
 
@@ -209,21 +220,28 @@ sec-analyzer NVDA --json
 
 # Specific filing date
 sec-analyzer AAPL --filing-date 2025-10-30
+
+# Custom Preset
+sec-analyzer NVDA --preset my_package.presets:MyPreset --json
 ```
+
+On failure, the CLI exits non-zero and prints a readable JSON error to stderr.
 
 ---
 
 ## How It Works
 
-```
-1. edgartools finds the filing on SEC EDGAR
-2. Filing converted to markdown (tables preserved)
-3. Full markdown + Pydantic schema sent to Gemini
-4. Gemini returns structured JSON matching the schema
+```text
+1. edgartools finds the Filing on SEC EDGAR
+2. The Filing is converted to markdown
+3. The full markdown + raw Pydantic JSON schema are sent to OpenRouter
+4. The selected Model returns structured JSON matching the schema
 5. Pydantic validates and returns typed data
 ```
 
-The key insight: Gemini's **structured output** mode forces the response to match your Pydantic schema exactly. No post-processing, no regex, no parsing.
+The default Model is `deepseek/deepseek-v4-flash`. It was selected by benchmark with reasoning off because it was faster, cheaper, and more reliable for strict Extraction than the tested alternatives. Set `OPENROUTER_MODEL` or pass `model=` to choose a different Model.
+
+Structured output is requested with OpenRouter's OpenAI-compatible `json_schema` response format in strict mode. Reasoning is disabled by default by omitting the reasoning field entirely. To opt in, set `OPENROUTER_REASONING_EFFORT` to `minimal`, `low`, `medium`, `high`, or `xhigh`.
 
 ---
 
@@ -231,15 +249,19 @@ The key insight: Gemini's **structured output** mode forces the response to matc
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `GOOGLE_API_KEY` | Yes | - | Google AI API key |
-| `EDGAR_IDENTITY` | No | `SECAnalyzer/1.0 user@example.com` | SEC EDGAR User-Agent |
-| `GOOGLE_MODEL` | No | `gemini-2.5-flash` | Gemini model ID |
+| `OPENROUTER_API_KEY` | Yes | - | OpenRouter API key |
+| `OPENROUTER_MODEL` | No | `deepseek/deepseek-v4-flash` | OpenRouter Model id |
+| `OPENROUTER_BASE_URL` | No | `https://openrouter.ai/api/v1` | Alternate OpenRouter-compatible base URL |
+| `OPENROUTER_REASONING_EFFORT` | No | `none` | Reasoning effort: `none`, `minimal`, `low`, `medium`, `high`, or `xhigh` |
+| `EDGAR_IDENTITY` | No | `SECAnalyzer/1.0 user@example.com` | SEC EDGAR identity string |
+
+See `.env.example` for a copyable template.
 
 ---
 
 ## Disclaimer
 
-This project is **not affiliated with the SEC, EDGAR, or Google**. Filing data comes from SEC EDGAR (public). LLM extraction may contain errors — always verify critical data against the original filing.
+This project is **not affiliated with the SEC, EDGAR, or OpenRouter**. Filing data comes from SEC EDGAR public records. LLM extraction may contain errors; always verify critical data against the original Filing.
 
 This tool is for **research and educational purposes only**. It is not financial advice.
 
