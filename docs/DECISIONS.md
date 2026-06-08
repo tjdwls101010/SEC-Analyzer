@@ -2,6 +2,10 @@
 
 Newest first. Each entry: `## YYYY-MM-DD — short title`, then 1–3 sentences (context + decision + why).
 
+## 2026-06-08 — Weekly live health-check is OpenRouter-only (SEC blocks CI IPs)
+
+#4 shipped a weekly live check doing a real `extract("NVDA")`, but SEC EDGAR returns HTTP 403 to GitHub Actions datacenter IPs (a known shared-cloud-IP block — the offline suite and residential-IP extractions all pass, so it is IP-based, not a code bug). A live-SEC check from CI would be chronically red on SEC rather than on real drift, defeating the alert. So the weekly cron now runs an OpenRouter-only check: a real Provider extraction on a built-in fixture filing (no live SEC), reliable from CI and red on model/slug/structured-output drift. The full live SEC extract becomes an on-demand `@pytest.mark.sec` test the maintainer runs from a residential IP (`pytest -m sec`). Trade-off: edgartools/SEC drift is no longer auto-detected by CI.
+
 ## 2026-06-08 — XBRL geographic-leak: robust geo-set rule + geo-cell guard
 
 Implementing #2 against live NVDA data showed the planned "exclude `MajorCustomersAxis` members that also appear in the `StatementGeographicalAxis` member set" rule is insufficient alone: NVDA's `nvda:UnitedStatesAndEuropeBasedEndCustomersMember` rides the customer axis on the *revenue* benchmark in the current period (76%) but is **not** itself a geographic-axis member, so the set-intersection rule does not catch it — it would leak as a 76% "customer". The fix keeps the set-intersection rule (catches geographic members riding the customer axis with no geo cell) and **adds** a complementary guard: skip any concentration row that also carries a `StatementGeographicalAxis` cell (NVDA's offending row carries `country:TW`). The earlier "Verified: the rule excludes this member" claim in issue #2 was inaccurate; both filters now ship together. (PM-confirmed.)

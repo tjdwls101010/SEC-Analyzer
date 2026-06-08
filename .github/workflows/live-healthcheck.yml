@@ -15,7 +15,6 @@ jobs:
     runs-on: ubuntu-latest
     env:
       OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      EDGAR_IDENTITY: ${{ vars.EDGAR_IDENTITY }}
 
     steps:
       - name: Check out repository
@@ -39,19 +38,14 @@ jobs:
             echo "::error::OPENROUTER_API_KEY is missing or empty"
             exit 1
           fi
-          if [ -z "${EDGAR_IDENTITY:-}" ]; then
-            echo "::error::EDGAR_IDENTITY is missing or empty"
-            exit 1
-          fi
-          if [ "$EDGAR_IDENTITY" = "SECAnalyzer/1.0 user@example.com" ]; then
-            echo "::error::EDGAR_IDENTITY still uses the placeholder value"
-            exit 1
-          fi
 
-      - name: Run live health-check
+      # SEC EDGAR 403s shared CI IPs, so the weekly check is OpenRouter-only
+      # (a real Provider extraction on a fixture filing, no live SEC). The full
+      # live SEC tests are marked `sec` and run on-demand from a residential IP.
+      - name: Run live health-check (OpenRouter only)
         run: |
           set +e
-          python -m pytest -m live
+          python -m pytest -m "live and not sec"
           status=$?
           if [ "$status" -eq 5 ]; then
             echo "::error::No live tests collected"
